@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: ResumeAtlas Research
+message: >-
+  If you use these datasets or findings, please cite them using the
+  metadata below.
+type: dataset
+authors:
+  - name: ResumeAtlas
+    website: "https://resumeatlas.io"
+repository-code: "https://github.com/deepsyyt/resumeatlas-research"
+url: "https://resumeatlas.io/resume-insights"
+abstract: >-
+  Aggregate statistics from real resume-to-job-description analyses and
+  resume parsing checks run on ResumeAtlas. Covers keyword coverage,
+  required-versus-preferred skill gaps, bullet-point quantification,
+  application verdicts and machine-readability of resume documents.
+  Aggregate only: contains no resume text, no personal data and no
+  hiring-outcome data.
+keywords:
+  - resume
+  - curriculum vitae
+  - applicant tracking system
+  - ATS
+  - job matching
+  - resume parsing
+  - hiring
+  - labour market
+license: CC-BY-4.0

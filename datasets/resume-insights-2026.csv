@@ -1,0 +1,42 @@
+category,metric,value,unit,n,window,notes
+overview,Analyses,1667,count,1667,2026-03-26 to 2026-09-09,Each row is one resume compared against one real job description on ResumeAtlas
+overview,Median ATS score,80,score 0-100,1667,2026-03-26 to 2026-09-09,ResumeAtlas parse/format score
+overview,Median keyword coverage vs the posting,79,percent,1667,2026-03-26 to 2026-09-09,
+overview,Median required skills missing per resume,6,count,1667,2026-03-26 to 2026-09-09,'missing' = required by the JD and absent from the resume
+ats_score_distribution,Resumes scoring below 70,20.3,percent,1667,2026-03-26 to 2026-09-09,Parse/format problems before job fit is judged
+ats_score_distribution,Resumes scoring 70-84,39.7,percent,1667,2026-03-26 to 2026-09-09,
+ats_score_distribution,Resumes scoring 85 or higher,40,percent,1667,2026-03-26 to 2026-09-09,
+bullet_evidence,Median bullet points per resume,35,count,613,2026-06-08 to 2026-09-09,"Bullet-level breakdown, newer analyzer versions only"
+bullet_evidence,Median share of bullets with a metric,5.2,percent,613,2026-06-08 to 2026-09-09,
+bullet_evidence,Resumes with no quantified bullet anywhere,25.8,percent,613,2026-06-08 to 2026-09-09,
+verdict,Rated ready to apply as-is,6.5,percent,581,2026-06-19 to 2026-09-09,"Model verdict; smaller window, recorded since June 2026"
+verdict,Rated optimize first,77.8,percent,581,2026-06-19 to 2026-09-09,
+verdict,Rated skip (not a realistic fit),15.7,percent,581,2026-06-19 to 2026-09-09,
+experience,Median resume years of experience,4,years,997,2026-03-26 to 2026-09-09,
+experience,Median posting years required,4,years,997,2026-03-26 to 2026-09-09,
+required_vs_preferred,Missing skills that were required (not preferred),72.8,percent,1342,2026-03-26 to 2026-09-09,
+top_missing_skills,#1 AWS,104,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 6.2% of analyses
+top_missing_skills,#2 Angular,94,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 5.6% of analyses
+top_missing_skills,#3 Kubernetes,87,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 5.2% of analyses
+top_missing_skills,#4 Python,70,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 4.2% of analyses
+top_missing_skills,#5 GCP,48,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.9% of analyses
+top_missing_skills,#6 Docker,47,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.8% of analyses
+top_missing_skills,#7 Azure,40,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.4% of analyses
+top_missing_skills,#8 C++,38,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.3% of analyses
+top_missing_skills,#9 Jenkins,37,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.2% of analyses
+top_missing_skills,#10 Kafka,36,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.2% of analyses
+top_missing_skills,#11 Azure DevOps,32,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.9% of analyses
+top_missing_skills,#12 Oracle,32,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.9% of analyses
+top_missing_skills,#13 Snowflake,28,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.7% of analyses
+top_missing_skills,#14 Tableau,28,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.7% of analyses
+top_missing_skills,#15 Node.js,28,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.7% of analyses
+top_missing_skills,#16 MongoDB,28,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.7% of analyses
+top_missing_skills,#17 MySQL,26,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.6% of analyses
+top_missing_skills,#18 Power BI,26,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.6% of analyses
+top_missing_skills,#19 Terraform,25,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.5% of analyses
+top_missing_skills,#20 Java,23,count,1667,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.4% of analyses
+skill_category_gap,Cloud & infrastructure,32.3,percent of all missing,1667,2026-03-26 to 2026-09-09,vs 13% of all matched skills
+skill_category_gap,Languages & frameworks,28.7,percent of all missing,1667,2026-03-26 to 2026-09-09,vs 28.7% of all matched skills
+skill_category_gap,Data & databases,20,percent of all missing,1667,2026-03-26 to 2026-09-09,vs 22.1% of all matched skills
+skill_category_gap,CI/CD & tooling,12.5,percent of all missing,1667,2026-03-26 to 2026-09-09,vs 14.1% of all matched skills
+skill_category_gap,Ways of working,6.6,percent of all missing,1667,2026-03-26 to 2026-09-09,vs 22.1% of all matched skills

@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-09-04",
+  "sampleSize": 138,
+  "submissionCount": 198,
+  "windowStart": "2026-06-23",
+  "windowEnd": "2026-09-04",
+  "notParsedShare": 18.8,
+  "analyzerScoreDistribution": {
+    "sampleSize": 138,
+    "median": 83,
+    "below70Share": 18.8,
+    "mid70to84Share": 37.7,
+    "atLeast85Share": 43.5
+  },
+  "sectionsRecognized": {
+    "sampleSize": 138,
+    "allThreeShare": 55.1,
+    "twoShare": 26.8,
+    "oneOrNoneShare": 18.1
+  },
+  "fieldExtraction": {
+    "sampleSize": 138,
+    "nameMissingShare": 9.4,
+    "emailMissingShare": 6.5,
+    "phoneMissingShare": 8,
+    "linkedinMissingShare": 58,
+    "locationMissingShare": 43.5
+  },
+  "parseChecks": [
+    {
+      "id": "name",
+      "label": "Name",
+      "failsWhen": "Name inside a header band, logo, or image",
+      "passRate": 90.6,
+      "warnRate": 0,
+      "failRate": 9.4,
+      "flaggedRate": 9.4,
+      "confounded": false
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "failsWhen": "Email shown only as an icon or in a graphic",
+      "passRate": 93.5,
+      "warnRate": 0,
+      "failRate": 6.5,
+      "flaggedRate": 6.5,
+      "confounded": false
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "failsWhen": "Number split across table cells or stylized",
+      "passRate": 92,
+      "warnRate": 8,
+      "failRate": 0,
+      "flaggedRate": 8,
+      "confounded": false
+    },
+    {
+      "id": "sections",
+      "label": "Section detection",
+      "failsWhen": "Creative headings like “My Journey” or “Toolbox”",
+      "passRate": 55.1,
+      "warnRate": 26.8,
+      "failRate": 18.1,
+      "flaggedRate": 44.9,
+      "confounded": false
+    },
+    {
+      "id": "experience",
+      "label": "Work experience",
+      "failsWhen": "Roles merged or missing title/date pairing",
+      "passRate": 72.5,
+      "warnRate": 16.7,
+      "failRate": 10.9,
+      "flaggedRate": 27.5,
+      "confounded": false
+    },
+    {
+      "id": "dates",
+      "label": "Dates",
+      "failsWhen": "Mixed styles, “’21-’23”, or dates in graphics",
+      "passRate": 89.1,
+      "warnRate": 3.6,
+      "failRate": 7.2,
+      "flaggedRate": 10.9,
+      "confounded": false
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "failsWhen": "Skill grids, rating bars, or column layouts",
+      "passRate": 67.4,
+      "warnRate": 6.5,
+      "failRate": 26.1,
+      "flaggedRate": 32.6,
+      "confounded": false
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "failsWhen": "Degrees buried in prose or unlabeled sections",
+      "passRate": 70.3,
+      "warnRate": 29.7,
+      "failRate": 0,
+      "flaggedRate": 29.7,
+      "confounded": false
+    },
+    {
+      "id": "tables",
+      "label": "Tables & columns",
+      "failsWhen": "Two-column layouts and tables for core content",
+      "passRate": 54.3,
+      "warnRate": 23.2,
+      "failRate": 22.5,
+      "flaggedRate": 45.7,
+      "confounded": false
+    },
+    {
+      "id": "icons",
+      "label": "Icons & graphics",
+      "failsWhen": "Contact icons, emoji, and decorative glyphs",
+      "passRate": 74.6,
+      "warnRate": 8.7,
+      "failRate": 16.7,
+      "flaggedRate": 25.4,
+      "confounded": false
+    },
+    {
+      "id": "bullets",
+      "label": "Bullet structure",
+      "failsWhen": "Dense paragraphs with no bullet markers",
+      "passRate": 54.3,
+      "warnRate": 4.3,
+      "failRate": 41.3,
+      "flaggedRate": 45.7,
+      "confounded": true
+    },
+    {
+      "id": "headers",
+      "label": "Headers & footers",
+      "failsWhen": "Name/email/phone trapped in header or footer bands",
+      "passRate": 90.6,
+      "warnRate": 9.4,
+      "failRate": 0,
+      "flaggedRate": 9.4,
+      "confounded": false
+    }
+  ],
+  "confoundedCheckIds": [
+    "bullets"
+  ],
+  "llmScore": {
+    "sampleSize": 1570,
+    "windowStart": "2026-03-26",
+    "windowEnd": "2026-09-04",
+    "median": 80,
+    "below70Share": 19.4,
+    "mid70to84Share": 41.1,
+    "atLeast85Share": 39.4
+  },
+  "notMeasured": [
+    "PDF vs DOCX parse rates — the source file type is not stored, so the analyzer ran on extracted text only.",
+    "Page-count effects — not stored.",
+    "Bullet structure — text extraction normalises or strips bullet glyphs, so a low bullet count here is an extraction artefact, not the resume.",
+    "Any specific commercial ATS (Workday, Greenhouse, Lever, iCIMS, Taleo, SAP). This benchmark tested the ResumeAtlas analyzer, which models the shared text-extraction stage — not any one vendor's parser.",
+    "Hiring outcomes — nothing here records whether a resume led to an interview."
+  ],
+  "sampleCaveat": "These are resumes real people submitted to ResumeAtlas between the dates above, run through ResumeAtlas's own ATS-parse analyzer. The sample is small, skews toward software, data and engineering roles, and covers signed-in users only. Treat it as a directional ResumeAtlas study, not a definitive measure of every resume or every ATS."
+}
