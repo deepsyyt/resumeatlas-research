@@ -29,6 +29,8 @@ Snapshot: **2026-09-09**. Sample sizes differ because signals were introduced at
 
 > These are resume-vs-job-description analyses run on ResumeAtlas, not a survey of all resumes. The sample skews toward software, data and engineering roles, so the specific tools below reflect those postings more than hiring overall.
 
+*(“the specific tools” in that caveat means the technologies named in the skill tables — see [skill gap analysis](research/skill-gap-analysis.md), not the ResumeAtlas tools listed below.)*
+
 <!-- /GENERATED -->
 
 Full numbers, definitions and caveats live in [`research/`](research/) and
@@ -38,18 +40,44 @@ Full numbers, definitions and caveats live in [`research/`](research/) and
 
 ## What is ResumeAtlas?
 
-ResumeAtlas is a resume-to-job-matching platform. A user pastes a resume and one
-specific job description, and the system analyses how well the two align: which
-required skills are present, which are claimed but not evidenced, which are
-missing entirely, how the resume parses as a machine-readable document, and
-whether the application is realistically worth submitting.
+**One place for the whole resume problem.** Most resume tools solve one slice of
+this and charge a monthly subscription for it, so job seekers end up paying for
+three or four at once. ResumeAtlas covers the whole path — from a blank page to
+the file you actually send — in one place.
 
-Because every analysis is a resume measured against a *named posting* rather than
-graded in the abstract, the resulting dataset can answer questions that generic
-resume advice cannot — for example, whether a resume fails on keywords or on
-evidence, and which of the two actually moves the outcome.
+| The job to be done | The tool |
+| --- | --- |
+| Should I apply to this job at all? | [Application Verdict](https://resumeatlas.io/check-resume-against-job-description) — rejection risks and shortlist odds for one posting |
+| Can an ATS even read my resume? | [ATS checker and parser](https://resumeatlas.io/ats-resume-checker) — the exact profile an ATS builds from your file |
+| My resume has columns, tables, and graphics | [ATS converter](https://resumeatlas.io/convert-resume-to-ats-format) — rebuilds it single-column and parseable, wording preserved |
+| I need to write one from scratch | [ATS builder](https://resumeatlas.io/ats-resume-builder), with a free generic template plus 32 role-specific ones |
+| I'm switching fields | [Career-change builder](https://resumeatlas.io/career-change-resume-builder) — reframes your experience as evidence for the new role |
+| Rewrite this resume for this posting | [Tailor](https://resumeatlas.io/tailor-resume-to-job-description) — rewrites only the lines your real work supports, and marks every change |
+
+Three further tools cover the smaller jobs — a
+[keyword scanner](https://resumeatlas.io/resume-keyword-scanner), a
+[work-experience bullet generator](https://resumeatlas.io/resume-bullet-generator),
+and a [professional summary generator](https://resumeatlas.io/professional-summary-generator)
+— nine in total. Every tool is free to use; you pay once, per tool, only to
+download a finished file.
 
 Site: <https://resumeatlas.io>
+
+### Where the data in this repository comes from
+
+Only two of those nine tools generate the research published here, and it is worth
+being precise about which:
+
+- **The resume-versus-posting comparison** produces the main corpus. Every record
+  is a resume measured against a *named job description* the user supplied, rather
+  than graded in the abstract — which is what lets the dataset answer questions
+  generic resume advice cannot, such as whether a resume fails on keywords or on
+  evidence.
+- **The ATS checker and parser** produces the parsing benchmark.
+
+The other seven tools generate no data used in this repository. Nothing here
+describes what people build, write or download — only what the analysis found when
+a resume was measured against a posting or against a parser.
 
 ---
 
@@ -117,19 +145,6 @@ not about hiring results.
 
 - [Resume parsing pipeline](technical/resume-parsing.md) — how a PDF or DOCX becomes structured text, and where that process loses information
 - [Skill extraction and matching](technical/skill-matching.md) — how a requirement in a posting is matched to evidence in a resume
-
----
-
-## ResumeAtlas tools
-
-The analyses in this repository are produced by these tools:
-
-- **Resume ↔ job description matching** — [check-resume-against-job-description](https://resumeatlas.io/check-resume-against-job-description)
-- **ATS resume checker and parser** — [ats-resume-checker](https://resumeatlas.io/ats-resume-checker)
-- **ATS format converter** — [convert-resume-to-ats-format](https://resumeatlas.io/convert-resume-to-ats-format)
-- **Resume tailoring** — [tailor-resume-to-job-description](https://resumeatlas.io/tailor-resume-to-job-description)
-- **Keyword scanner** — [resume-keyword-scanner](https://resumeatlas.io/resume-keyword-scanner)
-- **Chrome extension** — job-description matching from the posting page
 
 ---
 
