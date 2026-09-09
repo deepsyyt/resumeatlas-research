@@ -63,21 +63,36 @@ download a finished file.
 
 Site: <https://resumeatlas.io>
 
-### Where the data in this repository comes from
+### Research coverage
 
-Only two of those nine tools generate the research published here, and it is worth
-being precise about which:
+The intent is to publish research from every tool on the platform. Coverage today
+stands at two of the nine:
 
-- **The resume-versus-posting comparison** produces the main corpus. Every record
-  is a resume measured against a *named job description* the user supplied, rather
-  than graded in the abstract — which is what lets the dataset answer questions
-  generic resume advice cannot, such as whether a resume fails on keywords or on
-  evidence.
-- **The ATS checker and parser** produces the parsing benchmark.
+| Tool | Research status |
+| --- | --- |
+| Resume-versus-posting comparison | **Published** — the main corpus |
+| ATS checker and parser | **Published** — the parsing benchmark |
+| ATS converter | Planned |
+| ATS builder | Planned |
+| Career-change builder | Planned |
+| Tailor | Planned |
+| Keyword scanner | Planned |
+| Bullet generator | Planned |
+| Summary generator | Planned |
 
-The other seven tools generate no data used in this repository. Nothing here
-describes what people build, write or download — only what the analysis found when
-a resume was measured against a posting or against a parser.
+The two published corpora share a property that makes them worth reading: every
+record is a resume measured against a *named job description* the user supplied,
+or against a parser — rather than graded in the abstract. That is what lets the
+data answer questions generic resume advice cannot, such as whether a resume fails
+on keywords or on evidence.
+
+Coverage expands as each remaining tool begins capturing aggregate statistics.
+Nothing is published from a tool before it has a sample large enough to report and
+can meet the same standard as everything else here: exact sample sizes, a stated
+window, published limitations, and no resume content or personal data of any kind
+— see [methodology](methodology/). Until a tool appears above as published,
+nothing in this repository describes what people build, write or download through
+it.
 
 ---
 
