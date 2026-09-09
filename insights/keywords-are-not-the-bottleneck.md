@@ -12,10 +12,10 @@ Three measurements from the same corpus, each pointing the same direction:
 
 | Measure | Median | Sample |
 | --- | --- | --- |
-| Keyword coverage against the target posting | **79%** | 1,667 |
-| Required skills missing | **6** | 1,667 |
-| Skills named but not evidenced in any bullet | **7** | 534 |
-| Bullets containing a measurable result | **5.2%** | 613 |
+| Keyword coverage against the target posting | **79%** | 1,668 |
+| Required skills missing | **6** | 1,668 |
+| Skills named but not evidenced in any bullet | **7** | 535 |
+| Bullets containing a measurable result | **5.3%** | 614 |
 
 *Snapshot 2026-09-09. Sample sizes differ by signal; windows are not pooled.*
 

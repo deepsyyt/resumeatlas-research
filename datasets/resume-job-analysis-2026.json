@@ -1,15 +1,15 @@
 {
   "generatedAt": "2026-09-09",
-  "analysisCount": 1667,
+  "analysisCount": 1668,
   "windowStart": "2026-03-26",
   "windowEnd": "2026-09-09",
   "medianKeywordCoverage": 79,
   "medianAtsScore": 80,
   "atsScoreDistribution": {
-    "sampleSize": 1667,
-    "below70Share": 20.3,
+    "sampleSize": 1668,
+    "below70Share": 20.4,
     "mid70to84Share": 39.7,
-    "atLeast85Share": 40
+    "atLeast85Share": 39.9
   },
   "distinctMissingTerms": 7589,
   "topMissing": [
@@ -75,7 +75,7 @@
     },
     {
       "term": "Snowflake",
-      "count": 28,
+      "count": 29,
       "share": 1.7
     },
     {
@@ -117,12 +117,12 @@
   "topMatched": [
     {
       "term": "SQL",
-      "count": 458,
+      "count": 459,
       "share": 27.5
     },
     {
       "term": "Python",
-      "count": 453,
+      "count": 454,
       "share": 27.2
     },
     {
@@ -138,7 +138,7 @@
     {
       "term": "Communication",
       "count": 236,
-      "share": 14.2
+      "share": 14.1
     },
     {
       "term": "JavaScript",
@@ -152,8 +152,8 @@
     },
     {
       "term": "Stakeholder management",
-      "count": 190,
-      "share": 11.4
+      "count": 191,
+      "share": 11.5
     },
     {
       "term": "Problem-solving",
@@ -179,11 +179,11 @@
   "medianResumeYears": 4,
   "medianRequiredYears": 4,
   "medianExperienceGap": 1,
-  "experienceGapSampleSize": 997,
+  "experienceGapSampleSize": 998,
   "medianMissingSkills": 6,
-  "missingSkillsSampleSize": 1667,
+  "missingSkillsSampleSize": 1668,
   "medianWeakSkills": 7,
-  "weakSkillsSampleSize": 534,
+  "weakSkillsSampleSize": 535,
   "topWeak": [
     {
       "term": "Python",
@@ -237,8 +237,8 @@
     },
     {
       "term": "A/b testing",
-      "count": 40,
-      "share": 2.4
+      "count": 41,
+      "share": 2.5
     },
     {
       "term": "GCP",
@@ -247,17 +247,17 @@
     }
   ],
   "requiredVsPreferred": {
-    "sampleSize": 1342,
+    "sampleSize": 1343,
     "requiredShare": 72.8,
     "preferredShare": 27.2
   },
   "bulletEvidence": {
-    "sampleSize": 613,
+    "sampleSize": 614,
     "windowStart": "2026-06-08",
     "windowEnd": "2026-09-09",
     "medianBullets": 35,
-    "medianQuantifiedShare": 5.2,
-    "zeroQuantifiedShare": 25.8,
+    "medianQuantifiedShare": 5.3,
+    "zeroQuantifiedShare": 25.7,
     "quantifiedShareBuckets": [
       {
         "lo": 0,
@@ -267,7 +267,7 @@
       {
         "lo": 10,
         "hi": 20,
-        "count": 95
+        "count": 96
       },
       {
         "lo": 20,
@@ -287,7 +287,7 @@
     ]
   },
   "verdictSplit": {
-    "sampleSize": 581,
+    "sampleSize": 582,
     "windowStart": "2026-06-19",
     "windowEnd": "2026-09-09",
     "verdicts": [
@@ -299,28 +299,28 @@
       },
       {
         "verdict": "optimize_first",
-        "count": 452,
+        "count": 453,
         "share": 77.8,
         "medianShortlistPct": 42
       },
       {
         "verdict": "skip",
         "count": 91,
-        "share": 15.7,
+        "share": 15.6,
         "medianShortlistPct": 12
       }
     ]
   },
   "roleCoverage": {
     "rolesSeen": 258,
-    "rowsWithRole": 410,
+    "rowsWithRole": 411,
     "minSampleForPublication": 30,
     "roles": []
   },
   "categorySplit": [
     {
       "category": "Cloud & infrastructure",
-      "missingShare": 32.3,
+      "missingShare": 32.2,
       "matchedShare": 13
     },
     {

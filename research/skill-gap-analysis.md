@@ -21,7 +21,7 @@ overwhelmingly *required* skills rather than nice-to-haves.
 | Median skills named but not evidenced | **7** |
 | Share of gaps that were required, not preferred | **72.8%** |
 
-*n = 1,667, March 2026 – September 2026.*
+*n = 1,668, March 2026 – September 2026.*
 
 <!-- /GENERATED -->
 
@@ -34,7 +34,7 @@ overwhelmingly *required* skills rather than nice-to-haves.
 | **Required** | **72.8%** |
 | Preferred / nice to have | 27.2% |
 
-*n = 1,342, March 2026 – September 2026.*
+*n = 1,343, March 2026 – September 2026.*
 
 <!-- /GENERATED -->
 
@@ -61,7 +61,7 @@ posting listed as necessary.
 | 10 | Kafka | 36 | 2.2% |
 | 11 | Azure DevOps | 32 | 1.9% |
 | 12 | Oracle | 32 | 1.9% |
-| 13 | Snowflake | 28 | 1.7% |
+| 13 | Snowflake | 29 | 1.7% |
 | 14 | Tableau | 28 | 1.7% |
 | 15 | Node.js | 28 | 1.7% |
 | 16 | MongoDB | 28 | 1.7% |
@@ -70,7 +70,7 @@ posting listed as necessary.
 | 19 | Terraform | 25 | 1.5% |
 | 20 | Java | 23 | 1.4% |
 
-*n = 1,667, March 2026 – September 2026.* Share is of **all analyses**, not of all gaps.
+*n = 1,668, March 2026 – September 2026.* Share is of **all analyses**, not of all gaps.
 
 <!-- /GENERATED -->
 
@@ -86,20 +86,20 @@ For contrast, the skills resumes reliably *do* carry:
 
 | # | Skill | Analyses matching it | Share of all analyses |
 | --- | --- | --- | --- |
-| 1 | SQL | 458 | 27.5% |
-| 2 | Python | 453 | 27.2% |
+| 1 | SQL | 459 | 27.5% |
+| 2 | Python | 454 | 27.2% |
 | 3 | GIT | 307 | 18.4% |
 | 4 | C# | 262 | 15.7% |
-| 5 | Communication | 236 | 14.2% |
+| 5 | Communication | 236 | 14.1% |
 | 6 | JavaScript | 223 | 13.4% |
 | 7 | Cross-functional collaboration | 217 | 13% |
-| 8 | Stakeholder management | 190 | 11.4% |
+| 8 | Stakeholder management | 191 | 11.5% |
 | 9 | Problem-solving | 175 | 10.5% |
 | 10 | Agile | 167 | 10% |
 | 11 | AWS | 162 | 9.7% |
 | 12 | Microservices | 161 | 9.7% |
 
-*n = 1,667, March 2026 – September 2026.*
+*n = 1,668, March 2026 – September 2026.*
 
 <!-- /GENERATED -->
 
@@ -113,13 +113,13 @@ comparing each category's share of all **missing** skills against its share of a
 
 | Category | Share of all *missing* skills | Share of all *matched* skills | Direction |
 | --- | --- | --- | --- |
-| Cloud & infrastructure | 32.3% | 13% | **Over-represented among gaps** |
+| Cloud & infrastructure | 32.2% | 13% | **Over-represented among gaps** |
 | Languages & frameworks | 28.7% | 28.7% | Roughly balanced |
 | Data & databases | 20% | 22.1% | Roughly balanced |
 | CI/CD & tooling | 12.5% | 14.1% | Roughly balanced |
 | Ways of working | 6.6% | 22.1% | Over-represented among matches |
 
-*n = 1,667, March 2026 – September 2026.* Terms outside the explicit category lists fall into “Other” and are excluded here.
+*n = 1,668, March 2026 – September 2026.* Terms outside the explicit category lists fall into “Other” and are excluded here.
 
 <!-- /GENERATED -->
 
@@ -152,10 +152,10 @@ anywhere in its experience bullets:
 | 8 | Problem solving | 46 | 2.8% |
 | 9 | Communication skills | 42 | 2.5% |
 | 10 | Cross-functional leadership | 42 | 2.5% |
-| 11 | A/b testing | 40 | 2.4% |
+| 11 | A/b testing | 41 | 2.5% |
 | 12 | GCP | 38 | 2.3% |
 
-*n = 534, March 2026 – September 2026.*
+*n = 535, March 2026 – September 2026.*
 
 <!-- /GENERATED -->
 

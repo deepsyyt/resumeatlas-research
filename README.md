@@ -18,11 +18,11 @@ and republish with attribution.
 
 | Finding | Figure | Sample |
 | --- | --- | --- |
-| Resume bullet points containing a measurable result (median resume) | **5.2%** | n = 613 |
-| Resumes with no quantified bullet anywhere | **25.8%** | n = 613 |
-| Resume-posting pairs judged ready to send as-is | **6.5%** | n = 581 |
-| Median keyword coverage against the target posting | **79%** | n = 1,667 |
-| Skill gaps that were *required* rather than preferred | **72.8%** | n = 1,342 |
+| Resume bullet points containing a measurable result (median resume) | **5.3%** | n = 614 |
+| Resumes with no quantified bullet anywhere | **25.7%** | n = 614 |
+| Resume-posting pairs judged ready to send as-is | **6.5%** | n = 582 |
+| Median keyword coverage against the target posting | **79%** | n = 1,668 |
+| Skill gaps that were *required* rather than preferred | **72.8%** | n = 1,343 |
 | Resumes where section detection did not come back clean | **44.9%** | n = 138 |
 
 Snapshot: **2026-09-09**. Sample sizes differ because signals were introduced at different times — each figure carries its own `n`, and figures from different windows are never pooled.
@@ -105,6 +105,8 @@ it.
 | [`insights/`](insights/) | Shorter analytical notes and observations that aren't full studies |
 | [`methodology/`](methodology/) | How the data is collected, how every term is defined, what the sample can and cannot support |
 | [`technical/`](technical/) | Technical research — resume parsing, text extraction, skill matching |
+| [`questions/`](questions/) | The questions people actually ask, clustered into topics, each mapped to research or marked open |
+| [`sources/`](sources/) | Provenance audit of the statistics that dominate this field, including the ones that are not ours |
 
 The datasets are regenerated from the production database on every ResumeAtlas
 deploy, so the figures here track the live sample rather than a one-off export.
@@ -112,13 +114,42 @@ Each file records its own `generatedAt`, sample size and window.
 
 ---
 
+## Questions we investigate
+
+Research here starts from real confusion rather than from a keyword list. Public
+search data and recurring themes in career communities are collected, clustered
+into topics, and mapped to the research that answers them — or marked open.
+
+| Cluster | Core confusion | Status |
+| --- | --- | --- |
+| [ATS and parsing](questions/ats-and-parsing.md) | Does an ATS actually reject resumes, and what does it read? | Partly answered |
+| [Resume–job matching](questions/resume-job-matching.md) | How closely must a resume match the posting? | Partly answered |
+| [Resume writing](questions/resume-writing.md) | What should a bullet point actually contain? | Partly answered |
+| [Keywords](questions/keywords.md) | Which keywords matter, and how many? | Open |
+
+Two rules govern that directory: **no one's words are republished** — themes are
+synthesised, never quoted from an individual's post — and **there is no page per
+question.** Questions tell us what is worth measuring; a cluster earns a study
+only when we hold data that can answer it. Most clusters are still open, and say so.
+
+The strongest finding from this exercise was not any single question. It was that
+a handful of **unsourced or very old statistics** govern the whole topic space —
+the "60% of requirements" rule traces to an unpublished internal report; "75% of
+resumes are rejected by an ATS" has no methodology we can find; "recruiters spend
+7 seconds" comes from a small eye-tracking study over a decade old. Each is
+recycled until search engines return it as fact. They are tracked, with
+provenance and honest verification status, in
+[`sources/recycled-statistics.md`](sources/recycled-statistics.md).
+
+---
+
 ## Research
 
 | Study | Question | n |
 | --- | --- | --- |
-| [Bullet quantification](research/resume-bullet-quantification.md) | How many resume bullet points contain a measurable result? | <!-- GENERATED:n-bullets -->613<!-- /GENERATED --> |
-| [Resume–job alignment](research/resume-job-alignment.md) | How well do real resumes match the specific jobs they are sent to? | <!-- GENERATED:n-alignment -->1,667<!-- /GENERATED --> |
-| [Skill gap analysis](research/skill-gap-analysis.md) | Which skills do postings require that resumes most often lack? | <!-- GENERATED:n-skills -->1,667<!-- /GENERATED --> |
+| [Bullet quantification](research/resume-bullet-quantification.md) | How many resume bullet points contain a measurable result? | <!-- GENERATED:n-bullets -->614<!-- /GENERATED --> |
+| [Resume–job alignment](research/resume-job-alignment.md) | How well do real resumes match the specific jobs they are sent to? | <!-- GENERATED:n-alignment -->1,668<!-- /GENERATED --> |
+| [Skill gap analysis](research/skill-gap-analysis.md) | Which skills do postings require that resumes most often lack? | <!-- GENERATED:n-skills -->1,668<!-- /GENERATED --> |
 | [ATS parsing benchmark](research/ats-parsing-benchmark.md) | What fails when a resume is read as a machine-readable document? | <!-- GENERATED:n-parsing -->138<!-- /GENERATED --> |
 
 Each study states its own window, sample size and the questions its data
@@ -168,7 +199,7 @@ not about hiring results.
 <!-- GENERATED:citation -->
 
 ```
-ResumeAtlas, "Resume Statistics" (2026-09-09). Analysis of 1,667 resume-to-job-description comparisons, March 2026 – September 2026. https://resumeatlas.io/resume-insights
+ResumeAtlas, "Resume Statistics" (2026-09-09). Analysis of 1,668 resume-to-job-description comparisons, March 2026 – September 2026. https://resumeatlas.io/resume-insights
 ```
 
 For the parsing benchmark:
