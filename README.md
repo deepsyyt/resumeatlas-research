@@ -18,11 +18,11 @@ and republish with attribution.
 
 | Finding | Figure | Sample |
 | --- | --- | --- |
-| Resume bullet points containing a measurable result (median resume) | **5.3%** | n = 614 |
-| Resumes with no quantified bullet anywhere | **25.7%** | n = 614 |
-| Resume-posting pairs judged ready to send as-is | **6.5%** | n = 582 |
-| Median keyword coverage against the target posting | **79%** | n = 1,668 |
-| Skill gaps that were *required* rather than preferred | **72.8%** | n = 1,343 |
+| Resume bullet points containing a measurable result (median resume) | **5.3%** | n = 616 |
+| Resumes with no quantified bullet anywhere | **25.6%** | n = 616 |
+| Resume-posting pairs judged ready to send as-is | **6.7%** | n = 584 |
+| Median keyword coverage against the target posting | **79%** | n = 1,670 |
+| Skill gaps that were *required* rather than preferred | **72.9%** | n = 1,345 |
 | Resumes where section detection did not come back clean | **44.9%** | n = 138 |
 
 Snapshot: **2026-09-09**. Sample sizes differ because signals were introduced at different times — each figure carries its own `n`, and figures from different windows are never pooled.
@@ -147,13 +147,16 @@ provenance and honest verification status, in
 
 | Study | Question | n |
 | --- | --- | --- |
-| [Bullet quantification](research/resume-bullet-quantification.md) | How many resume bullet points contain a measurable result? | <!-- GENERATED:n-bullets -->614<!-- /GENERATED --> |
-| [Resume–job alignment](research/resume-job-alignment.md) | How well do real resumes match the specific jobs they are sent to? | <!-- GENERATED:n-alignment -->1,668<!-- /GENERATED --> |
-| [Skill gap analysis](research/skill-gap-analysis.md) | Which skills do postings require that resumes most often lack? | <!-- GENERATED:n-skills -->1,668<!-- /GENERATED --> |
+| [Bullet quantification](research/resume-bullet-quantification.md) | How many resume bullet points contain a measurable result? | <!-- GENERATED:n-bullets -->616<!-- /GENERATED --> |
+| [Resume–job alignment](research/resume-job-alignment.md) | How well do real resumes match the specific jobs they are sent to? | <!-- GENERATED:n-alignment -->1,670<!-- /GENERATED --> |
+| [Skill gap analysis](research/skill-gap-analysis.md) | Which skills do postings require that resumes most often lack? | <!-- GENERATED:n-skills -->1,670<!-- /GENERATED --> |
 | [ATS parsing benchmark](research/ats-parsing-benchmark.md) | What fails when a resume is read as a machine-readable document? | <!-- GENERATED:n-parsing -->138<!-- /GENERATED --> |
 
 Each study states its own window, sample size and the questions its data
 **cannot** answer.
+
+Written up for a general audience: [how many job requirements do you actually need to meet?](https://resumeatlas.io/how-many-job-requirements-do-you-need-to-meet) — the coverage
+question, measured, next to the provenance of the figure it replaces.
 
 ---
 
@@ -199,7 +202,7 @@ not about hiring results.
 <!-- GENERATED:citation -->
 
 ```
-ResumeAtlas, "Resume Statistics" (2026-09-09). Analysis of 1,668 resume-to-job-description comparisons, March 2026 – September 2026. https://resumeatlas.io/resume-insights
+ResumeAtlas, "Resume Statistics" (2026-09-09). Analysis of 1,670 resume-to-job-description comparisons, March 2026 – September 2026. https://resumeatlas.io/resume-insights
 ```
 
 For the parsing benchmark:

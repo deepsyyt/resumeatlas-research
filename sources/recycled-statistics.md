@@ -34,7 +34,7 @@ column. No cited source presented primary measurement.
 a median keyword coverage of **79%** — see
 [resume–job alignment](../research/resume-job-alignment.md). Note this is not the
 same population as "all applicants": people who run a matching check have
-self-selected. It is, however, measured rather than recalled.
+self-selected. It is, however, measured rather than recalled. Written up in full: [how many job requirements do you actually need to meet?](https://resumeatlas.io/how-many-job-requirements-do-you-need-to-meet).
 
 ---
 

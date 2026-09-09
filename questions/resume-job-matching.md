@@ -30,6 +30,12 @@ Taken together these suggest the "rejected despite matching" theme has a
 structural explanation: resumes in this corpus are keyword-complete and
 evidence-poor. See [keywords are not the bottleneck](../insights/keywords-are-not-the-bottleneck.md).
 
+## Published from this cluster
+
+- [How many job requirements do you actually need to meet?](https://resumeatlas.io/how-many-job-requirements-do-you-need-to-meet)
+  — the coverage question measured against the corpus, alongside the provenance of the
+  "60% rule" it replaces.
+
 ## What we cannot answer
 
 Whether tailoring changes an outcome. We can measure what a tailored resume

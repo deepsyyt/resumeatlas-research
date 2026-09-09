@@ -1,17 +1,17 @@
 {
   "generatedAt": "2026-09-09",
-  "analysisCount": 1668,
+  "analysisCount": 1670,
   "windowStart": "2026-03-26",
   "windowEnd": "2026-09-09",
   "medianKeywordCoverage": 79,
   "medianAtsScore": 80,
   "atsScoreDistribution": {
-    "sampleSize": 1668,
+    "sampleSize": 1670,
     "below70Share": 20.4,
     "mid70to84Share": 39.7,
     "atLeast85Share": 39.9
   },
-  "distinctMissingTerms": 7589,
+  "distinctMissingTerms": 7591,
   "topMissing": [
     {
       "term": "AWS",
@@ -75,8 +75,8 @@
     },
     {
       "term": "Snowflake",
-      "count": 29,
-      "share": 1.7
+      "count": 30,
+      "share": 1.8
     },
     {
       "term": "Tableau",
@@ -117,12 +117,12 @@
   "topMatched": [
     {
       "term": "SQL",
-      "count": 459,
+      "count": 460,
       "share": 27.5
     },
     {
       "term": "Python",
-      "count": 454,
+      "count": 455,
       "share": 27.2
     },
     {
@@ -137,8 +137,8 @@
     },
     {
       "term": "Communication",
-      "count": 236,
-      "share": 14.1
+      "count": 237,
+      "share": 14.2
     },
     {
       "term": "JavaScript",
@@ -152,7 +152,7 @@
     },
     {
       "term": "Stakeholder management",
-      "count": 191,
+      "count": 192,
       "share": 11.5
     },
     {
@@ -173,17 +173,17 @@
     {
       "term": "Microservices",
       "count": 161,
-      "share": 9.7
+      "share": 9.6
     }
   ],
   "medianResumeYears": 4,
   "medianRequiredYears": 4,
   "medianExperienceGap": 1,
-  "experienceGapSampleSize": 998,
+  "experienceGapSampleSize": 999,
   "medianMissingSkills": 6,
-  "missingSkillsSampleSize": 1668,
+  "missingSkillsSampleSize": 1670,
   "medianWeakSkills": 7,
-  "weakSkillsSampleSize": 535,
+  "weakSkillsSampleSize": 537,
   "topWeak": [
     {
       "term": "Python",
@@ -231,13 +231,13 @@
       "share": 2.5
     },
     {
-      "term": "Cross-functional leadership",
+      "term": "A/b testing",
       "count": 42,
       "share": 2.5
     },
     {
-      "term": "A/b testing",
-      "count": 41,
+      "term": "Cross-functional leadership",
+      "count": 42,
       "share": 2.5
     },
     {
@@ -247,27 +247,27 @@
     }
   ],
   "requiredVsPreferred": {
-    "sampleSize": 1343,
-    "requiredShare": 72.8,
-    "preferredShare": 27.2
+    "sampleSize": 1345,
+    "requiredShare": 72.9,
+    "preferredShare": 27.1
   },
   "bulletEvidence": {
-    "sampleSize": 614,
+    "sampleSize": 616,
     "windowStart": "2026-06-08",
     "windowEnd": "2026-09-09",
     "medianBullets": 35,
     "medianQuantifiedShare": 5.3,
-    "zeroQuantifiedShare": 25.7,
+    "zeroQuantifiedShare": 25.6,
     "quantifiedShareBuckets": [
       {
         "lo": 0,
         "hi": 10,
-        "count": 396
+        "count": 397
       },
       {
         "lo": 10,
         "hi": 20,
-        "count": 96
+        "count": 97
       },
       {
         "lo": 20,
@@ -287,20 +287,20 @@
     ]
   },
   "verdictSplit": {
-    "sampleSize": 582,
+    "sampleSize": 584,
     "windowStart": "2026-06-19",
     "windowEnd": "2026-09-09",
     "verdicts": [
       {
         "verdict": "apply",
-        "count": 38,
-        "share": 6.5,
+        "count": 39,
+        "share": 6.7,
         "medianShortlistPct": 72
       },
       {
         "verdict": "optimize_first",
-        "count": 453,
-        "share": 77.8,
+        "count": 454,
+        "share": 77.7,
         "medianShortlistPct": 42
       },
       {
@@ -312,8 +312,8 @@
     ]
   },
   "roleCoverage": {
-    "rolesSeen": 258,
-    "rowsWithRole": 411,
+    "rolesSeen": 259,
+    "rowsWithRole": 413,
     "minSampleForPublication": 30,
     "roles": []
   },
@@ -325,12 +325,12 @@
     },
     {
       "category": "Languages & frameworks",
-      "missingShare": 28.7,
+      "missingShare": 28.6,
       "matchedShare": 28.7
     },
     {
       "category": "Data & databases",
-      "missingShare": 20,
+      "missingShare": 20.1,
       "matchedShare": 22.1
     },
     {
