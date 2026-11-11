@@ -21,13 +21,13 @@ file formats that most resume advice focuses on.
 
 | Measure | Value |
 | --- | --- |
-| Resumes tested | **138** |
-| Submissions seen | 198 |
-| Median analyser score (0–100) | **83** |
-| Scoring below 70 | 18.8% |
-| Recognised all three core sections | **55.1%** |
+| Resumes tested | **218** |
+| Submissions seen | 322 |
+| Median analyser score (0–100) | **84** |
+| Scoring below 70 | 16.1% |
+| Recognised all three core sections | **60.6%** |
 
-*n = 138, June 2026 – September 2026.* Snapshot 2026-09-04.
+*n = 218, June 2026 – September 2026.* Snapshot 2026-09-20.
 
 > These are resumes real people submitted to ResumeAtlas between the dates above, run through ResumeAtlas's own ATS-parse analyzer. The sample is small, skews toward software, data and engineering roles, and covers signed-in users only. Treat it as a directional ResumeAtlas study, not a definitive measure of every resume or every ATS.
 
@@ -43,20 +43,20 @@ means it could not be reliably recovered.
 
 | Check | Pass | Warn | Fail | Fails when |
 | --- | --- | --- | --- | --- |
-| Tables & columns | 54.3% | 23.2% | 22.5% | Two-column layouts and tables for core content |
-| Bullet structure ⚠️ | 54.3% | 4.3% | 41.3% | **Confounded — excluded from interpretation.** Dense paragraphs with no bullet markers |
-| Section detection | 55.1% | 26.8% | 18.1% | Creative headings like “My Journey” or “Toolbox” |
-| Skills | 67.4% | 6.5% | 26.1% | Skill grids, rating bars, or column layouts |
-| Education | 70.3% | 29.7% | 0% | Degrees buried in prose or unlabeled sections |
-| Work experience | 72.5% | 16.7% | 10.9% | Roles merged or missing title/date pairing |
-| Icons & graphics | 74.6% | 8.7% | 16.7% | Contact icons, emoji, and decorative glyphs |
-| Dates | 89.1% | 3.6% | 7.2% | Mixed styles, “’21-’23”, or dates in graphics |
-| Name | 90.6% | 0% | 9.4% | Name inside a header band, logo, or image |
-| Headers & footers | 90.6% | 9.4% | 0% | Name/email/phone trapped in header or footer bands |
-| Phone | 92% | 8% | 0% | Number split across table cells or stylized |
-| Email | 93.5% | 0% | 6.5% | Email shown only as an icon or in a graphic |
+| Bullet structure ⚠️ | 57.8% | 3.2% | 39% | **Confounded — excluded from interpretation.** Dense paragraphs with no bullet markers |
+| Tables & columns | 59.2% | 22% | 18.8% | Two-column layouts and tables for core content |
+| Section detection | 60.6% | 23.4% | 16.1% | Creative headings like “My Journey” or “Toolbox” |
+| Icons & graphics | 71.6% | 9.2% | 19.3% | Contact icons, emoji, and decorative glyphs |
+| Skills | 72.9% | 4.1% | 22.9% | Skill grids, rating bars, or column layouts |
+| Work experience | 74.3% | 14.7% | 11% | Roles merged or missing title/date pairing |
+| Education | 74.3% | 25.7% | 0% | Degrees buried in prose or unlabeled sections |
+| Dates | 90.8% | 2.3% | 6.9% | Mixed styles, “’21-’23”, or dates in graphics |
+| Name | 92.2% | 0% | 7.8% | Name inside a header band, logo, or image |
+| Headers & footers | 92.2% | 7.8% | 0% | Name/email/phone trapped in header or footer bands |
+| Phone | 93.1% | 6.9% | 0% | Number split across table cells or stylized |
+| Email | 95% | 0% | 5% | Email shown only as an icon or in a graphic |
 
-Sorted worst-performing first. *n = 138, June 2026 – September 2026.*
+Sorted worst-performing first. *n = 218, June 2026 – September 2026.*
 
 <!-- /GENERATED -->
 
@@ -66,13 +66,13 @@ Sorted worst-performing first. *n = 138, June 2026 – September 2026.*
 
 | Field | Absent from parsed output |
 | --- | --- |
-| Name | 9.4% |
-| Email | 6.5% |
-| Phone | 8% |
-| Location | 43.5% |
-| LinkedIn | 58% |
+| Name | 7.8% |
+| Email | 5% |
+| Phone | 6.9% |
+| Location | 46.3% |
+| LinkedIn | 62.8% |
 
-*n = 138, June 2026 – September 2026.* “Absent” cannot be distinguished from “never present in the resume”.
+*n = 218, June 2026 – September 2026.* “Absent” cannot be distinguished from “never present in the resume”.
 
 <!-- /GENERATED -->
 
@@ -82,11 +82,11 @@ Sorted worst-performing first. *n = 138, June 2026 – September 2026.*
 
 | Core sections recognised | Share of resumes |
 | --- | --- |
-| All three | **55.1%** |
-| Two | 26.8% |
-| One or none | 18.1% |
+| All three | **60.6%** |
+| Two | 23.4% |
+| One or none | 16.1% |
 
-*n = 138, June 2026 – September 2026.*
+*n = 218, June 2026 – September 2026.*
 
 <!-- /GENERATED -->
 
@@ -151,7 +151,7 @@ not include it". Read those two rows as *missing from the parsed output*, not as
 
 <!-- GENERATED:not-measured -->
 
-- PDF vs DOCX parse rates — the source file type is not stored, so the analyzer ran on extracted text only.
+- PDF vs DOCX parse rates on the submitted resumes — the source file type is not stored. The page answers the question from 35 template pairs rendered both ways instead (see the PDF or Word card).
 - Page-count effects — not stored.
 - Bullet structure — text extraction normalises or strips bullet glyphs, so a low bullet count here is an extraction artefact, not the resume.
 - Any specific commercial ATS (Workday, Greenhouse, Lever, iCIMS, Taleo, SAP). This benchmark tested the ResumeAtlas analyzer, which models the shared text-extraction stage — not any one vendor's parser.

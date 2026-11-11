@@ -1,42 +1,92 @@
 category,metric,value,unit,n,window,notes
-overview,Analyses,1670,count,1670,2026-03-26 to 2026-09-09,Each row is one resume compared against one real job description on ResumeAtlas
-overview,Median ATS score,80,score 0-100,1670,2026-03-26 to 2026-09-09,ResumeAtlas parse/format score
-overview,Median keyword coverage vs the posting,79,percent,1670,2026-03-26 to 2026-09-09,
-overview,Median required skills missing per resume,6,count,1670,2026-03-26 to 2026-09-09,'missing' = required by the JD and absent from the resume
-ats_score_distribution,Resumes scoring below 70,20.4,percent,1670,2026-03-26 to 2026-09-09,Parse/format problems before job fit is judged
-ats_score_distribution,Resumes scoring 70-84,39.7,percent,1670,2026-03-26 to 2026-09-09,
-ats_score_distribution,Resumes scoring 85 or higher,39.9,percent,1670,2026-03-26 to 2026-09-09,
-bullet_evidence,Median bullet points per resume,35,count,616,2026-06-08 to 2026-09-09,"Bullet-level breakdown, newer analyzer versions only"
-bullet_evidence,Median share of bullets with a metric,5.3,percent,616,2026-06-08 to 2026-09-09,
-bullet_evidence,Resumes with no quantified bullet anywhere,25.6,percent,616,2026-06-08 to 2026-09-09,
-verdict,Rated ready to apply as-is,6.7,percent,584,2026-06-19 to 2026-09-09,"Model verdict; smaller window, recorded since June 2026"
-verdict,Rated optimize first,77.7,percent,584,2026-06-19 to 2026-09-09,
-verdict,Rated skip (not a realistic fit),15.6,percent,584,2026-06-19 to 2026-09-09,
-experience,Median resume years of experience,4,years,999,2026-03-26 to 2026-09-09,
-experience,Median posting years required,4,years,999,2026-03-26 to 2026-09-09,
-required_vs_preferred,Missing skills that were required (not preferred),72.9,percent,1345,2026-03-26 to 2026-09-09,
-top_missing_skills,#1 AWS,104,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 6.2% of analyses
-top_missing_skills,#2 Angular,94,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 5.6% of analyses
-top_missing_skills,#3 Kubernetes,87,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 5.2% of analyses
-top_missing_skills,#4 Python,70,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 4.2% of analyses
-top_missing_skills,#5 GCP,48,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.9% of analyses
-top_missing_skills,#6 Docker,47,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.8% of analyses
-top_missing_skills,#7 Azure,40,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.4% of analyses
-top_missing_skills,#8 C++,38,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.3% of analyses
-top_missing_skills,#9 Jenkins,37,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.2% of analyses
-top_missing_skills,#10 Kafka,36,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 2.2% of analyses
-top_missing_skills,#11 Azure DevOps,32,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.9% of analyses
-top_missing_skills,#12 Oracle,32,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.9% of analyses
-top_missing_skills,#13 Snowflake,30,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.8% of analyses
-top_missing_skills,#14 Tableau,28,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.7% of analyses
-top_missing_skills,#15 Node.js,28,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.7% of analyses
-top_missing_skills,#16 MongoDB,28,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.7% of analyses
-top_missing_skills,#17 MySQL,26,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.6% of analyses
-top_missing_skills,#18 Power BI,26,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.6% of analyses
-top_missing_skills,#19 Terraform,25,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.5% of analyses
-top_missing_skills,#20 Java,23,count,1670,2026-03-26 to 2026-09-09,Required by the JD and missing from the resume in 1.4% of analyses
-skill_category_gap,Cloud & infrastructure,32.2,percent of all missing,1670,2026-03-26 to 2026-09-09,vs 13% of all matched skills
-skill_category_gap,Languages & frameworks,28.6,percent of all missing,1670,2026-03-26 to 2026-09-09,vs 28.7% of all matched skills
-skill_category_gap,Data & databases,20.1,percent of all missing,1670,2026-03-26 to 2026-09-09,vs 22.1% of all matched skills
-skill_category_gap,CI/CD & tooling,12.5,percent of all missing,1670,2026-03-26 to 2026-09-09,vs 14.1% of all matched skills
-skill_category_gap,Ways of working,6.6,percent of all missing,1670,2026-03-26 to 2026-09-09,vs 22.1% of all matched skills
+overview,Analyses,3218,count,3218,2026-03-26 to 2026-11-10,Each row is one resume compared against one real job description on ResumeAtlas
+overview,Median ATS score,80,score 0-100,1085,2026-03-26 to 2026-06-19,ResumeAtlas blended parse/format score (analyzer v1-v3 rows and resume-only scans; later JD rows store the match score in this field and are excluded)
+overview,Median keyword coverage vs the posting,80,percent,3218,2026-03-26 to 2026-11-10,
+overview,Median required skills missing per resume,4,count,3218,2026-03-26 to 2026-11-10,'missing' = required by the JD and absent from the resume
+ats_score_distribution,Resumes scoring below 70,12.5,percent,1085,2026-03-26 to 2026-11-10,Parse/format problems before job fit is judged
+ats_score_distribution,Resumes scoring 70-84,49.7,percent,1085,2026-03-26 to 2026-11-10,
+ats_score_distribution,Resumes scoring 85 or higher,37.8,percent,1085,2026-03-26 to 2026-11-10,
+bullets_per_job,Median bullet points per job,1,count,1663,2026-09-13 to 2026-11-10,"Per job, pooled across 407 structured resumes"
+bullets_per_job,Median bullets on the most recent role,8,count,407,2026-09-13 to 2026-11-10,
+bullets_per_job,Median bullets on older roles,1,count,407,2026-09-13 to 2026-11-10,
+score_distribution_blended,Share of resumes with blended ATS score 0-9,0.6,percent,1085,2026-03-26 to 2026-06-19,at or above 0: 100%
+score_distribution_blended,Share of resumes with blended ATS score 10-19,0.9,percent,1085,2026-03-26 to 2026-06-19,at or above 10: 99.4%
+score_distribution_blended,Share of resumes with blended ATS score 20-29,1,percent,1085,2026-03-26 to 2026-06-19,at or above 20: 98.5%
+score_distribution_blended,Share of resumes with blended ATS score 30-39,2.2,percent,1085,2026-03-26 to 2026-06-19,at or above 30: 97.5%
+score_distribution_blended,Share of resumes with blended ATS score 40-49,3.3,percent,1085,2026-03-26 to 2026-06-19,at or above 40: 95.3%
+score_distribution_blended,Share of resumes with blended ATS score 50-59,0,percent,1085,2026-03-26 to 2026-06-19,at or above 50: 92%
+score_distribution_blended,Share of resumes with blended ATS score 60-69,4.5,percent,1085,2026-03-26 to 2026-06-19,at or above 60: 92%
+score_distribution_blended,Share of resumes with blended ATS score 70-79,32.1,percent,1085,2026-03-26 to 2026-06-19,at or above 70: 87.5%
+score_distribution_blended,Share of resumes with blended ATS score 80-89,27.7,percent,1085,2026-03-26 to 2026-06-19,at or above 80: 55.4%
+score_distribution_blended,Share of resumes with blended ATS score 90-100,27.6,percent,1085,2026-03-26 to 2026-06-19,at or above 90: 27.6%
+score_distribution_match,Share of resumes with match score vs the posting 0-9,3.1,percent,3204,2026-03-26 to 2026-11-10,at or above 0: 100%
+score_distribution_match,Share of resumes with match score vs the posting 10-19,1.8,percent,3204,2026-03-26 to 2026-11-10,at or above 10: 96.9%
+score_distribution_match,Share of resumes with match score vs the posting 20-29,2.9,percent,3204,2026-03-26 to 2026-11-10,at or above 20: 95.1%
+score_distribution_match,Share of resumes with match score vs the posting 30-39,4.2,percent,3204,2026-03-26 to 2026-11-10,at or above 30: 92.2%
+score_distribution_match,Share of resumes with match score vs the posting 40-49,4.8,percent,3204,2026-03-26 to 2026-11-10,at or above 40: 88%
+score_distribution_match,Share of resumes with match score vs the posting 50-59,9.7,percent,3204,2026-03-26 to 2026-11-10,at or above 50: 83.2%
+score_distribution_match,Share of resumes with match score vs the posting 60-69,10.7,percent,3204,2026-03-26 to 2026-11-10,at or above 60: 73.5%
+score_distribution_match,Share of resumes with match score vs the posting 70-79,11.5,percent,3204,2026-03-26 to 2026-11-10,at or above 70: 62.7%
+score_distribution_match,Share of resumes with match score vs the posting 80-89,13.3,percent,3204,2026-03-26 to 2026-11-10,at or above 80: 51.2%
+score_distribution_match,Share of resumes with match score vs the posting 90-100,38,percent,3204,2026-03-26 to 2026-11-10,at or above 90: 38%
+bullet_evidence,Median bullet points per resume,42,count,2075,2026-06-08 to 2026-11-10,"Bullet-level breakdown, newer analyzer versions only"
+bullet_evidence,Median share of bullets with a metric,4.7,percent,2075,2026-06-08 to 2026-11-10,
+bullet_evidence,Resumes with no quantified bullet anywhere,27.4,percent,2075,2026-06-08 to 2026-11-10,
+verdict_distribution,Rated ready to apply as-is,44.1,percent,2132,2026-06-19 to 2026-11-10,"Model verdict; smaller window, recorded since June 2026"
+verdict_distribution,Rated optimize first,38.2,percent,2132,2026-06-19 to 2026-11-10,
+verdict_distribution,Rated skip (not a realistic fit),17.6,percent,2132,2026-06-19 to 2026-11-10,
+experience,Median resume years of experience,4,years,1696,2026-03-26 to 2026-11-10,
+experience,Median posting years required,4,years,1696,2026-03-26 to 2026-11-10,
+experience,Median experience gap (resume years minus posting requirement),1,years,1696,2026-03-26 to 2026-11-10,Positive means the candidate has more experience than the posting asked for
+missing_required_vs_preferred,Missing skills that were required (not preferred),81,percent,2274,2026-03-26 to 2026-11-10,
+missing_required_vs_preferred,Missing skills that were preferred (not required),19,percent,2274,2026-03-26 to 2026-11-10,
+unproven_skills,"Median skills listed but not demonstrated in any bullet, per resume",3,count,2085,2026-03-26 to 2026-11-10,Skill sits in the resume's skills list with no supporting bullet found
+top_missing_skills,#1 AWS,119,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 3.7% of analyses
+top_missing_skills,#2 Kubernetes,108,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 3.4% of analyses
+top_missing_skills,#3 Python,103,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 3.2% of analyses
+top_missing_skills,#4 Angular,102,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 3.2% of analyses
+top_missing_skills,#5 Docker,60,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.9% of analyses
+top_missing_skills,#6 Power BI,58,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.8% of analyses
+top_missing_skills,#7 SQL,56,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.7% of analyses
+top_missing_skills,#8 Azure,54,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.7% of analyses
+top_missing_skills,#9 GCP,54,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.7% of analyses
+top_missing_skills,#10 Stakeholder management,51,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.6% of analyses
+top_missing_skills,#11 C++,48,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.5% of analyses
+top_missing_skills,#12 Java,46,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.4% of analyses
+top_missing_skills,#13 CI/CD,45,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.4% of analyses
+top_missing_skills,#14 Snowflake,44,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.4% of analyses
+top_missing_skills,#15 Tableau,41,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.3% of analyses
+top_missing_skills,#16 Team leadership,40,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.2% of analyses
+top_missing_skills,#17 Communication,40,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.2% of analyses
+top_missing_skills,#18 Excel,39,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.2% of analyses
+top_missing_skills,#19 Kafka,38,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.2% of analyses
+top_missing_skills,#20 Risk management,37,count,3218,2026-03-26 to 2026-11-10,Required by the JD and missing from the resume in 1.1% of analyses
+top_matched_skills,#1 Python,690,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 21.4% of analyses
+top_matched_skills,#2 SQL,635,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 19.7% of analyses
+top_matched_skills,#3 Communication,491,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 15.3% of analyses
+top_matched_skills,#4 Cross-functional collaboration,377,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 11.7% of analyses
+top_matched_skills,#5 GIT,362,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 11.2% of analyses
+top_matched_skills,#6 Problem-solving,340,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 10.6% of analyses
+top_matched_skills,#7 Stakeholder management,335,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 10.4% of analyses
+top_matched_skills,#8 Communication skills,325,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 10.1% of analyses
+top_matched_skills,#9 Problem solving,303,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 9.4% of analyses
+top_matched_skills,#10 Team leadership,285,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 8.9% of analyses
+top_matched_skills,#11 JavaScript,271,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 8.4% of analyses
+top_matched_skills,#12 C#,270,count,3218,2026-03-26 to 2026-11-10,Demonstrated in a resume bullet in 8.4% of analyses
+top_unproven_skills,#1 Python,109,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 3.4% of analyses"
+top_unproven_skills,#2 SQL,104,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 3.2% of analyses"
+top_unproven_skills,#3 Stakeholder management,103,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 3.2% of analyses"
+top_unproven_skills,#4 Communication,95,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 3% of analyses"
+top_unproven_skills,#5 Team leadership,93,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 2.9% of analyses"
+top_unproven_skills,#6 AWS,74,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 2.3% of analyses"
+top_unproven_skills,#7 Cross-functional collaboration,70,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 2.2% of analyses"
+top_unproven_skills,#8 Problem solving,65,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 2% of analyses"
+top_unproven_skills,#9 Communication skills,63,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 2% of analyses"
+top_unproven_skills,#10 Mentoring,59,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 1.8% of analyses"
+top_unproven_skills,#11 Cross-functional leadership,57,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 1.8% of analyses"
+top_unproven_skills,#12 A/b testing,47,count,3218,2026-03-26 to 2026-11-10,"Listed on the resume with no supporting bullet, in 1.5% of analyses"
+skill_category_match_vs_missing,Languages & frameworks,27.5,percent of all missing,3218,2026-03-26 to 2026-11-10,vs 27.2% of all matched skills
+skill_category_match_vs_missing,Cloud & infrastructure,27,percent of all missing,3218,2026-03-26 to 2026-11-10,vs 11.5% of all matched skills
+skill_category_match_vs_missing,Data & databases,21.4,percent of all missing,3218,2026-03-26 to 2026-11-10,vs 20.9% of all matched skills
+skill_category_match_vs_missing,CI/CD & tooling,12.6,percent of all missing,3218,2026-03-26 to 2026-11-10,vs 12.8% of all matched skills
+skill_category_match_vs_missing,Ways of working,11.6,percent of all missing,3218,2026-03-26 to 2026-11-10,vs 27.6% of all matched skills

@@ -1,0 +1,425 @@
+{
+  "generatedAt": "2026-09-29",
+  "eventCount": 1037,
+  "rejectedRows": 0,
+  "minRows": 100,
+  "minCutRows": 30,
+  "countsByTool": {
+    "convert_ats": 289,
+    "parse_resume": 281,
+    "builder_generate": 40,
+    "ats_check": 286,
+    "builder_improve": 109,
+    "professional_summary": 8,
+    "tailor": 14,
+    "career_change": 4,
+    "keyword_scan": 6
+  },
+  "resumeLength": {
+    "sampleSize": 286,
+    "windowStart": "2026-09-21",
+    "windowEnd": "2026-09-29",
+    "medianWords": 491,
+    "wordBuckets": {
+      "lt300": 5.9,
+      "w300to499": 44.8,
+      "w500to699": 26.9,
+      "w700to999": 16.1,
+      "ge1000": 6.3
+    },
+    "pdf": {
+      "sampleSize": 178,
+      "medianPages": 1,
+      "onePageShare": 53.9,
+      "twoPageShare": 36.5,
+      "threePlusShare": 9.6,
+      "byPage": {
+        "1": {
+          "count": 96,
+          "share": 53.9,
+          "medianWords": 409,
+          "medianScore": 87,
+          "parsedShare": 83.3
+        },
+        "2": {
+          "count": 65,
+          "share": 36.5,
+          "medianWords": 545,
+          "medianScore": 87,
+          "parsedShare": 92.3
+        },
+        "3": {
+          "count": 8,
+          "share": 4.5,
+          "medianWords": null,
+          "medianScore": null,
+          "parsedShare": null
+        },
+        "4+": {
+          "count": 9,
+          "share": 5.1,
+          "medianWords": null,
+          "medianScore": null,
+          "parsedShare": null
+        }
+      }
+    },
+    "byCountry": {
+      "US": {
+        "sampleSize": 49,
+        "share": 17.1,
+        "medianWords": 748,
+        "pdfSampleSize": 17,
+        "medianPages": null,
+        "onePageShare": null
+      },
+      "IN": {
+        "sampleSize": 58,
+        "share": 20.3,
+        "medianWords": 452,
+        "pdfSampleSize": 48,
+        "medianPages": 1,
+        "onePageShare": 52.1
+      }
+    },
+    "byExperienceSpan": {
+      "0to2": null,
+      "3to7": {
+        "sampleSize": 79,
+        "medianPages": 1,
+        "onePageShare": 75.9,
+        "twoPlusShare": 24.1,
+        "medianWords": 405
+      },
+      "8to15": {
+        "sampleSize": 58,
+        "medianPages": 2,
+        "onePageShare": 43.1,
+        "twoPlusShare": 56.9,
+        "medianWords": 547
+      },
+      "16plus": {
+        "sampleSize": 32,
+        "medianPages": 2,
+        "onePageShare": 18.8,
+        "twoPlusShare": 81.3,
+        "medianWords": 661
+      }
+    },
+    "converterPdf": {
+      "sampleSize": 182,
+      "medianPages": 2,
+      "onePageShare": 42.3
+    }
+  },
+  "formatComparison": {
+    "sampleSize": 286,
+    "windowStart": "2026-09-21",
+    "windowEnd": "2026-09-29",
+    "byFormat": {
+      "pdf": {
+        "sampleSize": 178,
+        "medianScore": 87,
+        "parsedShare": 85.4,
+        "allCoreSectionsShare": 66.9,
+        "flagged": {
+          "name": 6.7,
+          "email": 0.6,
+          "phone": 1.1,
+          "sections": 33.1,
+          "experience": 24.2,
+          "dates": 6.2,
+          "skills": 23,
+          "education": 24.2,
+          "tables": 51.1,
+          "icons": 34.3,
+          "bullets": 27,
+          "headers": 7.3
+        }
+      },
+      "docx": {
+        "sampleSize": 108,
+        "medianScore": 87,
+        "parsedShare": 89.8,
+        "allCoreSectionsShare": 73.1,
+        "flagged": {
+          "name": 2.8,
+          "email": 1.9,
+          "phone": 1.9,
+          "sections": 26.9,
+          "experience": 24.1,
+          "dates": 6.5,
+          "skills": 29.6,
+          "education": 23.1,
+          "tables": 38.9,
+          "icons": 8.3,
+          "bullets": 93.5,
+          "headers": 0
+        }
+      },
+      "txt": {
+        "sampleSize": 0,
+        "medianScore": null,
+        "parsedShare": null,
+        "flagged": null
+      }
+    }
+  },
+  "skillsCount": {
+    "windowStart": "2026-09-21",
+    "windowEnd": "2026-09-29",
+    "uploaded": {
+      "sampleSize": 552,
+      "median": 22,
+      "buckets": {
+        "le5": 6,
+        "s6to10": 11.1,
+        "s11to15": 12.5,
+        "s16to20": 15.8,
+        "s21to30": 25.4,
+        "gt30": 29.3
+      }
+    },
+    "checker": {
+      "sampleSize": 286,
+      "median": 18,
+      "buckets": {
+        "le5": 26.2,
+        "s6to10": 11.5,
+        "s11to15": 7,
+        "s16to20": 19.2,
+        "s21to30": 17.8,
+        "gt30": 18.2
+      }
+    },
+    "groupedShare": 47.4,
+    "builderByLevel": {}
+  },
+  "careerChanges": null,
+  "actionVerbs": {
+    "sampleSize": 0,
+    "improveSampleSize": 109,
+    "windowStart": "2026-09-21",
+    "windowEnd": "2026-09-29",
+    "generator": null,
+    "improve": {
+      "betterVerbs": null,
+      "addMetrics": null,
+      "byDirective": {
+        "ats-keywords": 41,
+        "add-metrics": 13,
+        "better-verbs": 5,
+        "suggest-skills": 6,
+        "more-ats": 25,
+        "more-technical": 3,
+        "shorter": 5,
+        "leadership": 7,
+        "stronger-impact": 4
+      }
+    }
+  },
+  "tailoring": null,
+  "summaryLength": null,
+  "keywordGaps": null,
+  "jobDescriptions": {
+    "sampleSize": 177,
+    "windowStart": "2026-09-21",
+    "windowEnd": "2026-09-29",
+    "bySource": {
+      "analyze": 165,
+      "tailor": 12
+    },
+    "medianWords": 395,
+    "requiredYears": {
+      "statedShare": 42.9,
+      "median": 3,
+      "buckets": {
+        "y0to1": 27.6,
+        "y2to4": 46.1,
+        "y5to7": 13.2,
+        "y8plus": 13.2
+      }
+    },
+    "degree": {
+      "none": 32.2,
+      "bachelor": 49.2,
+      "master": 18.1,
+      "phd": 0.6
+    },
+    "degreeRequiredShare": 3.4,
+    "workMode": {
+      "onsite": 9.6,
+      "unspecified": 75.7,
+      "remote": 7.3,
+      "hybrid": 7.3
+    },
+    "employmentType": {
+      "unspecified": 71.2,
+      "internship": 9.6,
+      "contract": 9.6,
+      "full-time": 9.6
+    },
+    "seniority": {
+      "unspecified": 71.2,
+      "lead": 6.8,
+      "junior": 4.5,
+      "intern": 4,
+      "manager": 7.3,
+      "senior": 5.1,
+      "executive": 0.6,
+      "director": 0.6
+    },
+    "visaSponsorship": {
+      "unspecified": 99.4,
+      "not-offered": 0.6
+    },
+    "salaryStatedShare": 6.2,
+    "salaryByCurrency": {},
+    "medianTechTerms": 2,
+    "topTechTerms": [
+      {
+        "key": "reporting",
+        "count": 54,
+        "share": 30.5
+      },
+      {
+        "key": "cross-functional",
+        "count": 40,
+        "share": 22.6
+      },
+      {
+        "key": "Excel",
+        "count": 32,
+        "share": 18.1
+      },
+      {
+        "key": "Python",
+        "count": 30,
+        "share": 16.9
+      },
+      {
+        "key": "SQL",
+        "count": 27,
+        "share": 15.3
+      },
+      {
+        "key": "analytics",
+        "count": 27,
+        "share": 15.3
+      },
+      {
+        "key": "monitoring",
+        "count": 25,
+        "share": 14.1
+      },
+      {
+        "key": "testing",
+        "count": 25,
+        "share": 14.1
+      },
+      {
+        "key": "metrics",
+        "count": 23,
+        "share": 13
+      },
+      {
+        "key": "Power BI",
+        "count": 20,
+        "share": 11.3
+      },
+      {
+        "key": "Agile",
+        "count": 20,
+        "share": 11.3
+      },
+      {
+        "key": "R",
+        "count": 17,
+        "share": 9.6
+      },
+      {
+        "key": "AWS",
+        "count": 15,
+        "share": 8.5
+      },
+      {
+        "key": "Java",
+        "count": 12,
+        "share": 6.8
+      },
+      {
+        "key": "Azure",
+        "count": 12,
+        "share": 6.8
+      },
+      {
+        "key": "business requirements",
+        "count": 12,
+        "share": 6.8
+      },
+      {
+        "key": "Tableau",
+        "count": 10,
+        "share": 5.6
+      },
+      {
+        "key": "stakeholder management",
+        "count": 9,
+        "share": 5.1
+      },
+      {
+        "key": "JavaScript",
+        "count": 9,
+        "share": 5.1
+      },
+      {
+        "key": "machine learning",
+        "count": 8,
+        "share": 4.5
+      },
+      {
+        "key": "Jira",
+        "count": 7,
+        "share": 4
+      },
+      {
+        "key": "segmentation",
+        "count": 6,
+        "share": 3.4
+      },
+      {
+        "key": "Linux",
+        "count": 6,
+        "share": 3.4
+      },
+      {
+        "key": "LLMs",
+        "count": 6,
+        "share": 3.4
+      },
+      {
+        "key": "React",
+        "count": 6,
+        "share": 3.4
+      }
+    ],
+    "hasPreferredSectionShare": 38.4,
+    "byRole": {},
+    "byCountry": {
+      "IN": {
+        "sampleSize": 97,
+        "share": 54.8,
+        "remoteShare": 7.2,
+        "medianRequiredYears": 3
+      },
+      "US": {
+        "sampleSize": 33,
+        "share": 18.6,
+        "remoteShare": 9.1,
+        "medianRequiredYears": 3
+      }
+    }
+  },
+  "jdCorpusSize": 177,
+  "sampleCaveat": "Aggregated from anonymous, content-free records of runs of the free ResumeAtlas tools (counts, scores and yes/no flags only — no resume text is stored). The sample is whoever used the tools in the window shown: self-selected, skewed toward software, data and engineering roles, and not a labour-market census. Treat every figure as a directional ResumeAtlas study."
+}

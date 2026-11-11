@@ -18,14 +18,14 @@ and republish with attribution.
 
 | Finding | Figure | Sample |
 | --- | --- | --- |
-| Resume bullet points containing a measurable result (median resume) | **5.3%** | n = 616 |
-| Resumes with no quantified bullet anywhere | **25.6%** | n = 616 |
-| Resume-posting pairs judged ready to send as-is | **6.7%** | n = 584 |
-| Median keyword coverage against the target posting | **79%** | n = 1,670 |
-| Skill gaps that were *required* rather than preferred | **72.9%** | n = 1,345 |
-| Resumes where section detection did not come back clean | **44.9%** | n = 138 |
+| Resume bullet points containing a measurable result (median resume) | **4.7%** | n = 2,075 |
+| Resumes with no quantified bullet anywhere | **27.4%** | n = 2,075 |
+| Resume-posting pairs judged ready to send as-is | **44.1%** | n = 2,132 |
+| Median keyword coverage against the target posting | **80%** | n = 3,218 |
+| Skill gaps that were *required* rather than preferred | **81%** | n = 2,274 |
+| Resumes where section detection did not come back clean | **39.4%** | n = 218 |
 
-Snapshot: **2026-09-09**. Sample sizes differ because signals were introduced at different times — each figure carries its own `n`, and figures from different windows are never pooled.
+Snapshot: **2026-11-11**. Sample sizes differ because signals were introduced at different times — each figure carries its own `n`, and figures from different windows are never pooled.
 
 > These are resume-vs-job-description analyses run on ResumeAtlas, not a survey of all resumes. The sample skews toward software, data and engineering roles, so the specific tools below reflect those postings more than hiring overall.
 
@@ -147,10 +147,10 @@ provenance and honest verification status, in
 
 | Study | Question | n |
 | --- | --- | --- |
-| [Bullet quantification](research/resume-bullet-quantification.md) | How many resume bullet points contain a measurable result? | <!-- GENERATED:n-bullets -->616<!-- /GENERATED --> |
-| [Resume–job alignment](research/resume-job-alignment.md) | How well do real resumes match the specific jobs they are sent to? | <!-- GENERATED:n-alignment -->1,670<!-- /GENERATED --> |
-| [Skill gap analysis](research/skill-gap-analysis.md) | Which skills do postings require that resumes most often lack? | <!-- GENERATED:n-skills -->1,670<!-- /GENERATED --> |
-| [ATS parsing benchmark](research/ats-parsing-benchmark.md) | What fails when a resume is read as a machine-readable document? | <!-- GENERATED:n-parsing -->138<!-- /GENERATED --> |
+| [Bullet quantification](research/resume-bullet-quantification.md) | How many resume bullet points contain a measurable result? | <!-- GENERATED:n-bullets -->2,075<!-- /GENERATED --> |
+| [Resume–job alignment](research/resume-job-alignment.md) | How well do real resumes match the specific jobs they are sent to? | <!-- GENERATED:n-alignment -->3,218<!-- /GENERATED --> |
+| [Skill gap analysis](research/skill-gap-analysis.md) | Which skills do postings require that resumes most often lack? | <!-- GENERATED:n-skills -->3,218<!-- /GENERATED --> |
+| [ATS parsing benchmark](research/ats-parsing-benchmark.md) | What fails when a resume is read as a machine-readable document? | <!-- GENERATED:n-parsing -->218<!-- /GENERATED --> |
 
 Each study states its own window, sample size and the questions its data
 **cannot** answer.
@@ -168,6 +168,9 @@ question, measured, next to the provenance of the figure it replaces.
 | [`resume-job-analysis-2026.json`](datasets/resume-job-analysis-2026.json) | JSON | The same corpus with full distributions and skill frequency tables |
 | [`ats-parsing-benchmark-2026.json`](datasets/ats-parsing-benchmark-2026.json) | JSON | Per-check pass/warn/fail rates from the resume parsing benchmark |
 | [`ats-parsing-benchmark-2026.csv`](datasets/ats-parsing-benchmark-2026.csv) | CSV | Flattened parsing benchmark for spreadsheet use |
+| [`tool-insights-2026.json`](datasets/tool-insights-2026.json) | JSON | Aggregates from anonymous, content-free records of the free tools (resume length and page counts, skills-section size, career-change pairs, tailoring delta, action verbs, summary length, keyword gaps) plus structured facts from the job-description corpus. A section is `null` until it has 100 rows; per-role/country cuts need 30 |
+| [`template-parse-test-2026.json`](datasets/template-parse-test-2026.json) | JSON | Canva gallery templates, 20 fonts, and 35 PDF/Word template pairs run through the ResumeAtlas parser |
+| [`extractor-comparison-2026.json`](datasets/extractor-comparison-2026.json) | JSON | The same PDFs read by five open-source text extractors (pdf.js, Xpdf, pypdf, pdfminer.six, PyMuPDF) |
 
 See [`datasets/README.md`](datasets/README.md) for the schema of each file.
 
@@ -202,13 +205,13 @@ not about hiring results.
 <!-- GENERATED:citation -->
 
 ```
-ResumeAtlas, "Resume Statistics" (2026-09-09). Analysis of 1,670 resume-to-job-description comparisons, March 2026 – September 2026. https://resumeatlas.io/resume-insights
+ResumeAtlas, "Resume Statistics" (2026-11-11). Analysis of 3,218 resume-to-job-description comparisons, March 2026 – November 2026. https://resumeatlas.io/resume-insights
 ```
 
 For the parsing benchmark:
 
 ```
-ResumeAtlas, "ATS Parsing Benchmark" (2026-09-04). 138 resumes, June 2026 – September 2026. https://resumeatlas.io/ats-resume-parsing-benchmark
+ResumeAtlas, "ATS Parsing Benchmark" (2026-09-20). 218 resumes, June 2026 – September 2026. https://resumeatlas.io/ats-resume-parsing-benchmark
 ```
 
 <!-- /GENERATED -->

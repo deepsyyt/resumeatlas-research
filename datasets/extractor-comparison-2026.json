@@ -1,0 +1,2469 @@
+{
+  "generatedAt": "2026-09-20",
+  "extractors": [
+    {
+      "id": "pdfjs",
+      "label": "pdf.js (browser-based tools, ResumeAtlas)"
+    },
+    {
+      "id": "xpdf",
+      "label": "Xpdf pdftotext"
+    },
+    {
+      "id": "pypdf",
+      "label": "pypdf (Python)"
+    },
+    {
+      "id": "pdfminer",
+      "label": "pdfminer.six (Python)"
+    },
+    {
+      "id": "pymupdf",
+      "label": "PyMuPDF (MuPDF)"
+    }
+  ],
+  "scoring": "spacedLines = lines that are runs of single characters separated by single spaces; headingsIntact = how many of EXPERIENCE, EDUCATION, SKILLS appear as whole words (0-3); email/phone use the ResumeAtlas analyzer's patterns; chars = non-whitespace characters.",
+  "canva": {
+    "sampleSize": 28,
+    "byExtractor": {
+      "pdfjs": {
+        "label": "pdf.js (browser-based tools, ResumeAtlas)",
+        "sampleSize": 28,
+        "filesWithSpacedLines": 16,
+        "filesAllThreeHeadings": 15,
+        "filesZeroHeadings": 3,
+        "filesEmailFound": 27,
+        "filesPhoneFound": 27,
+        "filesEmpty": 0
+      },
+      "xpdf": {
+        "label": "Xpdf pdftotext",
+        "sampleSize": 28,
+        "filesWithSpacedLines": 0,
+        "filesAllThreeHeadings": 26,
+        "filesZeroHeadings": 0,
+        "filesEmailFound": 27,
+        "filesPhoneFound": 27,
+        "filesEmpty": 0
+      },
+      "pypdf": {
+        "label": "pypdf (Python)",
+        "sampleSize": 28,
+        "filesWithSpacedLines": 28,
+        "filesAllThreeHeadings": 0,
+        "filesZeroHeadings": 27,
+        "filesEmailFound": 0,
+        "filesPhoneFound": 26,
+        "filesEmpty": 0
+      },
+      "pdfminer": {
+        "label": "pdfminer.six (Python)",
+        "sampleSize": 28,
+        "filesWithSpacedLines": 0,
+        "filesAllThreeHeadings": 2,
+        "filesZeroHeadings": 19,
+        "filesEmailFound": 27,
+        "filesPhoneFound": 27,
+        "filesEmpty": 0
+      },
+      "pymupdf": {
+        "label": "PyMuPDF (MuPDF)",
+        "sampleSize": 28,
+        "filesWithSpacedLines": 5,
+        "filesAllThreeHeadings": 23,
+        "filesZeroHeadings": 0,
+        "filesEmailFound": 27,
+        "filesPhoneFound": 27,
+        "filesEmpty": 0
+      }
+    }
+  },
+  "fonts": {
+    "sampleSize": 20,
+    "byExtractor": {
+      "pdfjs": {
+        "label": "pdf.js (browser-based tools, ResumeAtlas)",
+        "sampleSize": 20,
+        "filesWithSpacedLines": 0,
+        "filesAllThreeHeadings": 20,
+        "filesZeroHeadings": 0,
+        "filesEmailFound": 20,
+        "filesPhoneFound": 20,
+        "filesEmpty": 0
+      },
+      "xpdf": {
+        "label": "Xpdf pdftotext",
+        "sampleSize": 20,
+        "filesWithSpacedLines": 0,
+        "filesAllThreeHeadings": 20,
+        "filesZeroHeadings": 0,
+        "filesEmailFound": 20,
+        "filesPhoneFound": 20,
+        "filesEmpty": 0
+      },
+      "pypdf": {
+        "label": "pypdf (Python)",
+        "sampleSize": 20,
+        "filesWithSpacedLines": 0,
+        "filesAllThreeHeadings": 20,
+        "filesZeroHeadings": 0,
+        "filesEmailFound": 20,
+        "filesPhoneFound": 20,
+        "filesEmpty": 0
+      },
+      "pdfminer": {
+        "label": "pdfminer.six (Python)",
+        "sampleSize": 20,
+        "filesWithSpacedLines": 0,
+        "filesAllThreeHeadings": 20,
+        "filesZeroHeadings": 0,
+        "filesEmailFound": 20,
+        "filesPhoneFound": 20,
+        "filesEmpty": 0
+      },
+      "pymupdf": {
+        "label": "PyMuPDF (MuPDF)",
+        "sampleSize": 20,
+        "filesWithSpacedLines": 0,
+        "filesAllThreeHeadings": 20,
+        "filesZeroHeadings": 0,
+        "filesEmailFound": 20,
+        "filesPhoneFound": 20,
+        "filesEmpty": 0
+      }
+    }
+  },
+  "spacing": {
+    "sampleSize": 3,
+    "rows": [
+      {
+        "id": "font-arial-spaced-headings-2",
+        "group": "font-test",
+        "name": "Arial, headings letter-spaced 2pt",
+        "variant": "spacing",
+        "extractors": {
+          "pdfjs": {
+            "chars": 1165,
+            "spacedLines": 4,
+            "headingsIntact": 0,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "xpdf": {
+            "chars": 1165,
+            "spacedLines": 0,
+            "headingsIntact": 2,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pypdf": {
+            "chars": 1165,
+            "spacedLines": 0,
+            "headingsIntact": 3,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pdfminer": {
+            "chars": 1165,
+            "spacedLines": 4,
+            "headingsIntact": 0,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pymupdf": {
+            "chars": 1165,
+            "spacedLines": 2,
+            "headingsIntact": 0,
+            "emailFound": true,
+            "phoneFound": true
+          }
+        }
+      },
+      {
+        "id": "font-arial-spaced-headings-4",
+        "group": "font-test",
+        "name": "Arial, headings letter-spaced 4pt",
+        "variant": "spacing",
+        "extractors": {
+          "pdfjs": {
+            "chars": 1165,
+            "spacedLines": 4,
+            "headingsIntact": 0,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "xpdf": {
+            "chars": 1165,
+            "spacedLines": 0,
+            "headingsIntact": 2,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pypdf": {
+            "chars": 1165,
+            "spacedLines": 0,
+            "headingsIntact": 3,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pdfminer": {
+            "chars": 1165,
+            "spacedLines": 4,
+            "headingsIntact": 0,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pymupdf": {
+            "chars": 1165,
+            "spacedLines": 4,
+            "headingsIntact": 0,
+            "emailFound": true,
+            "phoneFound": true
+          }
+        }
+      },
+      {
+        "id": "font-arial-spaced-all-2",
+        "group": "font-test",
+        "name": "Arial, whole document letter-spaced 2pt",
+        "variant": "spacing",
+        "extractors": {
+          "pdfjs": {
+            "chars": 1165,
+            "spacedLines": 28,
+            "headingsIntact": 0,
+            "emailFound": false,
+            "phoneFound": true
+          },
+          "xpdf": {
+            "chars": 1165,
+            "spacedLines": 0,
+            "headingsIntact": 2,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pypdf": {
+            "chars": 1165,
+            "spacedLines": 0,
+            "headingsIntact": 3,
+            "emailFound": true,
+            "phoneFound": true
+          },
+          "pdfminer": {
+            "chars": 1165,
+            "spacedLines": 6,
+            "headingsIntact": 0,
+            "emailFound": false,
+            "phoneFound": true
+          },
+          "pymupdf": {
+            "chars": 1165,
+            "spacedLines": 24,
+            "headingsIntact": 0,
+            "emailFound": false,
+            "phoneFound": true
+          }
+        }
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "canva-p01",
+      "group": "canva-popular",
+      "name": "White Minimalist Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 639,
+          "spacedLines": 3,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 639,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 639,
+          "spacedLines": 12,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 639,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 639,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p02",
+      "group": "canva-popular",
+      "name": "White Simple Student CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 513,
+          "spacedLines": 6,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 513,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 513,
+          "spacedLines": 13,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 513,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 513,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p03",
+      "group": "canva-popular",
+      "name": "Minimalist CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 670,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 670,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 670,
+          "spacedLines": 16,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 670,
+          "spacedLines": 0,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 670,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p04",
+      "group": "canva-popular",
+      "name": "Black and White Minimalist Professional Resume A4",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1438,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1438,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1438,
+          "spacedLines": 4,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1438,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1438,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p05",
+      "group": "canva-popular",
+      "name": "Blue and Black Developer Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1084,
+          "spacedLines": 2,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1084,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1084,
+          "spacedLines": 13,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1084,
+          "spacedLines": 0,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1084,
+          "spacedLines": 4,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p06",
+      "group": "canva-popular",
+      "name": "Deep Purple Professional College Student CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1576,
+          "spacedLines": 8,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1576,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1576,
+          "spacedLines": 15,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1576,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1576,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p07",
+      "group": "canva-popular",
+      "name": "Professional Modern CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1489,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1489,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1489,
+          "spacedLines": 19,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": false
+        },
+        "pdfminer": {
+          "chars": 1489,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1489,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p08",
+      "group": "canva-popular",
+      "name": "Black and White Simple Business School Graduate Corporate Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1863,
+          "spacedLines": 3,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1863,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1863,
+          "spacedLines": 2,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1863,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1863,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p09",
+      "group": "canva-popular",
+      "name": "White and Green Simple Student CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 493,
+          "spacedLines": 6,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 493,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 493,
+          "spacedLines": 14,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 493,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 493,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p10",
+      "group": "canva-popular",
+      "name": "White Simple Student CV Resume (2)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 496,
+          "spacedLines": 6,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 496,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 496,
+          "spacedLines": 14,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 496,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 496,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p11",
+      "group": "canva-popular",
+      "name": "Minimalist White and Grey Professional Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1757,
+          "spacedLines": 7,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1757,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1757,
+          "spacedLines": 9,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1757,
+          "spacedLines": 0,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1757,
+          "spacedLines": 8,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p12",
+      "group": "canva-popular",
+      "name": "White Black and Blue Modern Professional Resume A4",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 2002,
+          "spacedLines": 3,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1999,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 2002,
+          "spacedLines": 20,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 2002,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 2002,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p13",
+      "group": "canva-popular",
+      "name": "Black White Minimalist CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1781,
+          "spacedLines": 9,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1781,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1781,
+          "spacedLines": 19,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1781,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1781,
+          "spacedLines": 7,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p14",
+      "group": "canva-popular",
+      "name": "White and Black Minimalist Professional Accountant Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1727,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1727,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1727,
+          "spacedLines": 12,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1727,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1727,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p15",
+      "group": "canva-popular",
+      "name": "Blue Minimalist Modern CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1474,
+          "spacedLines": 6,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1474,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1474,
+          "spacedLines": 21,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1474,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1474,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p16",
+      "group": "canva-popular",
+      "name": "Red Black Bold Graphic Designer Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 802,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 801,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 802,
+          "spacedLines": 6,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 802,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 800,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": false,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p17",
+      "group": "canva-popular",
+      "name": "Modern Professional CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1409,
+          "spacedLines": 6,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1409,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1409,
+          "spacedLines": 18,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1409,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1409,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p18",
+      "group": "canva-popular",
+      "name": "Modern Minimalist Professional CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 681,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 681,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 681,
+          "spacedLines": 15,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 681,
+          "spacedLines": 0,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 681,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p19",
+      "group": "canva-popular",
+      "name": "Minimalist CV Resume (2)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1671,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1671,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1671,
+          "spacedLines": 24,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1671,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1671,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-p20",
+      "group": "canva-popular",
+      "name": "White and Blue Minimalist Professional Corporate ATS Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1728,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1719,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1728,
+          "spacedLines": 7,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1728,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1728,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-a01",
+      "group": "canva-ats-labelled",
+      "name": "Black and White ATS-Friendly Simple Clean Resume CV",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1719,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1719,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1719,
+          "spacedLines": 3,
+          "headingsIntact": 1,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1719,
+          "spacedLines": 0,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1719,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-a02",
+      "group": "canva-ats-labelled",
+      "name": "White and Black Modern Professional Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1433,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": false
+        },
+        "xpdf": {
+          "chars": 1433,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": false
+        },
+        "pypdf": {
+          "chars": 1433,
+          "spacedLines": 5,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": false
+        },
+        "pdfminer": {
+          "chars": 1433,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": false
+        },
+        "pymupdf": {
+          "chars": 1433,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": false
+        }
+      }
+    },
+    {
+      "id": "canva-a03",
+      "group": "canva-ats-labelled",
+      "name": "Professional Modern CV Resume (ATS search)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1693,
+          "spacedLines": 1,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1693,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1693,
+          "spacedLines": 18,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1693,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1693,
+          "spacedLines": 1,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-a04",
+      "group": "canva-ats-labelled",
+      "name": "White and Black Minimalist Professional Corporate ATS Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 2021,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 2021,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 2021,
+          "spacedLines": 12,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 2021,
+          "spacedLines": 0,
+          "headingsIntact": 1,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 2021,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-a05",
+      "group": "canva-ats-labelled",
+      "name": "Black White Corporate Finance Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 2549,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 2549,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 2549,
+          "spacedLines": 15,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 2549,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 2549,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-a06",
+      "group": "canva-ats-labelled",
+      "name": "Black and White Professional ATS Friendly Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1718,
+          "spacedLines": 1,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1718,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1718,
+          "spacedLines": 6,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1718,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1718,
+          "spacedLines": 1,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-a07",
+      "group": "canva-ats-labelled",
+      "name": "ATS Friendly Modern CV Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1492,
+          "spacedLines": 3,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1492,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1492,
+          "spacedLines": 18,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1492,
+          "spacedLines": 0,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1492,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "canva-a08",
+      "group": "canva-ats-labelled",
+      "name": "Black and White Modern Web Developer Resume",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1479,
+          "spacedLines": 1,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1479,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1479,
+          "spacedLines": 5,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1479,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1479,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-helvetica",
+      "group": "font-test",
+      "name": "Helvetica (pdf built-in)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-times-roman",
+      "group": "font-test",
+      "name": "Times Roman (pdf built-in)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-courier",
+      "group": "font-test",
+      "name": "Courier (pdf built-in)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1164,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-arial",
+      "group": "font-test",
+      "name": "Arial",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-calibri",
+      "group": "font-test",
+      "name": "Calibri",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-times-new-roman",
+      "group": "font-test",
+      "name": "Times New Roman",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-georgia",
+      "group": "font-test",
+      "name": "Georgia",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-verdana",
+      "group": "font-test",
+      "name": "Verdana",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-garamond",
+      "group": "font-test",
+      "name": "Garamond",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-tahoma",
+      "group": "font-test",
+      "name": "Tahoma",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-trebuchet",
+      "group": "font-test",
+      "name": "Trebuchet MS",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1164,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-segoe-ui",
+      "group": "font-test",
+      "name": "Segoe UI",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-candara",
+      "group": "font-test",
+      "name": "Candara",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-consolas",
+      "group": "font-test",
+      "name": "Consolas",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-courier-new",
+      "group": "font-test",
+      "name": "Courier New",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1164,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-comic-sans",
+      "group": "font-test",
+      "name": "Comic Sans MS",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1164,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-impact",
+      "group": "font-test",
+      "name": "Impact",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-bahnschrift",
+      "group": "font-test",
+      "name": "Bahnschrift",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1164,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-webdings",
+      "group": "font-test",
+      "name": "Webdings (symbol font, control)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1163,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-wingdings",
+      "group": "font-test",
+      "name": "Wingdings (symbol font, control)",
+      "variant": "",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1162,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-arial-spaced-headings-2",
+      "group": "font-test",
+      "name": "Arial, headings letter-spaced 2pt",
+      "variant": "spacing",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 4,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 4,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 2,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-arial-spaced-headings-4",
+      "group": "font-test",
+      "name": "Arial, headings letter-spaced 4pt",
+      "variant": "spacing",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 4,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 4,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 4,
+          "headingsIntact": 0,
+          "emailFound": true,
+          "phoneFound": true
+        }
+      }
+    },
+    {
+      "id": "font-arial-spaced-all-2",
+      "group": "font-test",
+      "name": "Arial, whole document letter-spaced 2pt",
+      "variant": "spacing",
+      "extractors": {
+        "pdfjs": {
+          "chars": 1165,
+          "spacedLines": 28,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "xpdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 2,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pypdf": {
+          "chars": 1165,
+          "spacedLines": 0,
+          "headingsIntact": 3,
+          "emailFound": true,
+          "phoneFound": true
+        },
+        "pdfminer": {
+          "chars": 1165,
+          "spacedLines": 6,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        },
+        "pymupdf": {
+          "chars": 1165,
+          "spacedLines": 24,
+          "headingsIntact": 0,
+          "emailFound": false,
+          "phoneFound": true
+        }
+      }
+    }
+  ],
+  "notMeasured": [
+    "Commercial ATS products. These are five open-source extractors; which one a given ATS uses is not public.",
+    "Optical character recognition. All files here have a text layer; scanned images were not tested."
+  ]
+}

@@ -16,11 +16,11 @@ about one bullet in twenty.
 
 | Measure | Value |
 | --- | --- |
-| Median bullet points per resume | **35** |
-| Median share of those bullets containing a measurable result | **5.3%** |
-| Resumes with no quantified bullet anywhere | **25.6%** |
+| Median bullet points per resume | **42** |
+| Median share of those bullets containing a measurable result | **4.7%** |
+| Resumes with no quantified bullet anywhere | **27.4%** |
 
-*n = 616, June 2026 – September 2026.*
+*n = 2,075, June 2026 – November 2026.*
 
 <!-- /GENERATED -->
 
@@ -31,13 +31,13 @@ the bottom:
 
 | Share of bullets quantified | Resumes | % of sample |
 | --- | --- | --- |
-| 0–10% | 397 | 64.4% |
-| 10–20% | 97 | 15.7% |
-| 20–30% | 50 | 8.1% |
-| 30–40% | 61 | 9.9% |
-| 40%+ | 11 | 1.8% |
+| 0–10% | 1,397 | 67.3% |
+| 10–20% | 363 | 17.5% |
+| 20–30% | 158 | 7.6% |
+| 30–40% | 103 | 5% |
+| 40%+ | 54 | 2.6% |
 
-*n = 616, June 2026 – September 2026.*
+*n = 2,075, June 2026 – November 2026.*
 
 <!-- /GENERATED -->
 

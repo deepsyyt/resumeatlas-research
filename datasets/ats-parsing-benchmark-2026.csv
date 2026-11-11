@@ -1,53 +1,53 @@
 category,metric,value,unit,n,window,notes
-overview,Resumes tested,138,count,138,2026-06-23 to 2026-09-04,Distinct resumes run through the ResumeAtlas parsing analyzer. Not a test of any commercial ATS.
-overview,Submissions seen,198,count,138,2026-06-23 to 2026-09-04,
-overview,Scoring below 70,18.8,percent,138,2026-06-23 to 2026-09-04,Parse/format problems serious enough to risk losing content
-parse_check,Name - pass,90.6,percent,138,2026-06-23 to 2026-09-04,"Fails when: Name inside a header band, logo, or image"
-parse_check,Name - warn,0,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Name - fail,9.4,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Email - pass,93.5,percent,138,2026-06-23 to 2026-09-04,Fails when: Email shown only as an icon or in a graphic
-parse_check,Email - warn,0,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Email - fail,6.5,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Phone - pass,92,percent,138,2026-06-23 to 2026-09-04,Fails when: Number split across table cells or stylized
-parse_check,Phone - warn,8,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Phone - fail,0,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Section detection - pass,55.1,percent,138,2026-06-23 to 2026-09-04,Fails when: Creative headings like “My Journey” or “Toolbox”
-parse_check,Section detection - warn,26.8,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Section detection - fail,18.1,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Work experience - pass,72.5,percent,138,2026-06-23 to 2026-09-04,Fails when: Roles merged or missing title/date pairing
-parse_check,Work experience - warn,16.7,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Work experience - fail,10.9,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Dates - pass,89.1,percent,138,2026-06-23 to 2026-09-04,"Fails when: Mixed styles, “’21-’23”, or dates in graphics"
-parse_check,Dates - warn,3.6,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Dates - fail,7.2,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Skills - pass,67.4,percent,138,2026-06-23 to 2026-09-04,"Fails when: Skill grids, rating bars, or column layouts"
-parse_check,Skills - warn,6.5,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Skills - fail,26.1,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Education - pass,70.3,percent,138,2026-06-23 to 2026-09-04,Fails when: Degrees buried in prose or unlabeled sections
-parse_check,Education - warn,29.7,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Education - fail,0,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Tables & columns - pass,54.3,percent,138,2026-06-23 to 2026-09-04,Fails when: Two-column layouts and tables for core content
-parse_check,Tables & columns - warn,23.2,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Tables & columns - fail,22.5,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Icons & graphics - pass,74.6,percent,138,2026-06-23 to 2026-09-04,"Fails when: Contact icons, emoji, and decorative glyphs"
-parse_check,Icons & graphics - warn,8.7,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Icons & graphics - fail,16.7,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Bullet structure - pass,54.3,percent,138,2026-06-23 to 2026-09-04,CONFOUNDED by text extraction - excluded from interpretation. Fails when: Dense paragraphs with no bullet markers
-parse_check,Bullet structure - warn,4.3,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Bullet structure - fail,41.3,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Headers & footers - pass,90.6,percent,138,2026-06-23 to 2026-09-04,Fails when: Name/email/phone trapped in header or footer bands
-parse_check,Headers & footers - warn,9.4,percent,138,2026-06-23 to 2026-09-04,
-parse_check,Headers & footers - fail,0,percent,138,2026-06-23 to 2026-09-04,
-field_extraction,Name missing,9.4,percent,138,2026-06-23 to 2026-09-04,Absent from parsed output - cannot be distinguished from never present in the resume
-field_extraction,Email missing,6.5,percent,138,2026-06-23 to 2026-09-04,Absent from parsed output - cannot be distinguished from never present in the resume
-field_extraction,Phone missing,8,percent,138,2026-06-23 to 2026-09-04,Absent from parsed output - cannot be distinguished from never present in the resume
-field_extraction,LinkedIn missing,58,percent,138,2026-06-23 to 2026-09-04,Absent from parsed output - cannot be distinguished from never present in the resume
-field_extraction,Location missing,43.5,percent,138,2026-06-23 to 2026-09-04,Absent from parsed output - cannot be distinguished from never present in the resume
-sections_recognized,All three core sections,55.1,percent,138,2026-06-23 to 2026-09-04,
-sections_recognized,Two sections,26.8,percent,138,2026-06-23 to 2026-09-04,
-sections_recognized,One or none,18.1,percent,138,2026-06-23 to 2026-09-04,
-analyzer_score,Median,83,score 0-100,138,2026-06-23 to 2026-09-04,
-analyzer_score,Below 70,18.8,percent,138,2026-06-23 to 2026-09-04,
-analyzer_score,70-84,37.7,percent,138,2026-06-23 to 2026-09-04,
-analyzer_score,85 or higher,43.5,percent,138,2026-06-23 to 2026-09-04,
-blended_model_score,Median,80,score 0-100,1570,2026-03-26 to 2026-09-04,Different corpus and window from the parse checks above - do not pool
+overview,Resumes tested,218,count,218,2026-06-23 to 2026-09-20,Distinct resumes run through the ResumeAtlas parsing analyzer. Not a test of any commercial ATS.
+overview,Submissions seen,322,count,218,2026-06-23 to 2026-09-20,
+overview,Scoring below 70,16.5,percent,218,2026-06-23 to 2026-09-20,Parse/format problems serious enough to risk losing content
+parse_check,Name - pass,92.2,percent,218,2026-06-23 to 2026-09-20,"Fails when: Name inside a header band, logo, or image"
+parse_check,Name - warn,0,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Name - fail,7.8,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Email - pass,95,percent,218,2026-06-23 to 2026-09-20,Fails when: Email shown only as an icon or in a graphic
+parse_check,Email - warn,0,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Email - fail,5,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Phone - pass,93.1,percent,218,2026-06-23 to 2026-09-20,Fails when: Number split across table cells or stylized
+parse_check,Phone - warn,6.9,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Phone - fail,0,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Section detection - pass,60.6,percent,218,2026-06-23 to 2026-09-20,Fails when: Creative headings like “My Journey” or “Toolbox”
+parse_check,Section detection - warn,23.4,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Section detection - fail,16.1,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Work experience - pass,74.3,percent,218,2026-06-23 to 2026-09-20,Fails when: Roles merged or missing title/date pairing
+parse_check,Work experience - warn,14.7,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Work experience - fail,11,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Dates - pass,90.8,percent,218,2026-06-23 to 2026-09-20,"Fails when: Mixed styles, “’21-’23”, or dates in graphics"
+parse_check,Dates - warn,2.3,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Dates - fail,6.9,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Skills - pass,72.9,percent,218,2026-06-23 to 2026-09-20,"Fails when: Skill grids, rating bars, or column layouts"
+parse_check,Skills - warn,4.1,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Skills - fail,22.9,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Education - pass,74.3,percent,218,2026-06-23 to 2026-09-20,Fails when: Degrees buried in prose or unlabeled sections
+parse_check,Education - warn,25.7,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Education - fail,0,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Tables & columns - pass,59.2,percent,218,2026-06-23 to 2026-09-20,Fails when: Two-column layouts and tables for core content
+parse_check,Tables & columns - warn,22,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Tables & columns - fail,18.8,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Icons & graphics - pass,71.6,percent,218,2026-06-23 to 2026-09-20,"Fails when: Contact icons, emoji, and decorative glyphs"
+parse_check,Icons & graphics - warn,9.2,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Icons & graphics - fail,19.3,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Bullet structure - pass,57.8,percent,218,2026-06-23 to 2026-09-20,CONFOUNDED by text extraction - excluded from interpretation. Fails when: Dense paragraphs with no bullet markers
+parse_check,Bullet structure - warn,3.2,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Bullet structure - fail,39,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Headers & footers - pass,92.2,percent,218,2026-06-23 to 2026-09-20,Fails when: Name/email/phone trapped in header or footer bands
+parse_check,Headers & footers - warn,7.8,percent,218,2026-06-23 to 2026-09-20,
+parse_check,Headers & footers - fail,0,percent,218,2026-06-23 to 2026-09-20,
+field_extraction,Name missing,7.8,percent,218,2026-06-23 to 2026-09-20,Absent from parsed output - cannot be distinguished from never present in the resume
+field_extraction,Email missing,5,percent,218,2026-06-23 to 2026-09-20,Absent from parsed output - cannot be distinguished from never present in the resume
+field_extraction,Phone missing,6.9,percent,218,2026-06-23 to 2026-09-20,Absent from parsed output - cannot be distinguished from never present in the resume
+field_extraction,LinkedIn missing,62.8,percent,218,2026-06-23 to 2026-09-20,Absent from parsed output - cannot be distinguished from never present in the resume
+field_extraction,Location missing,46.3,percent,218,2026-06-23 to 2026-09-20,Absent from parsed output - cannot be distinguished from never present in the resume
+sections_recognized,All three core sections,60.6,percent,218,2026-06-23 to 2026-09-20,
+sections_recognized,Two sections,23.4,percent,218,2026-06-23 to 2026-09-20,
+sections_recognized,One or none,16.1,percent,218,2026-06-23 to 2026-09-20,
+analyzer_score,Median,84,score 0-100,218,2026-06-23 to 2026-09-20,
+analyzer_score,Below 70,16.1,percent,218,2026-06-23 to 2026-09-20,
+analyzer_score,70-84,35.8,percent,218,2026-06-23 to 2026-09-20,
+analyzer_score,85 or higher,48.2,percent,218,2026-06-23 to 2026-09-20,
+blended_model_score,Median,80,score 0-100,1085,2026-03-26 to 2026-06-19,Different corpus and window from the parse checks above - do not pool

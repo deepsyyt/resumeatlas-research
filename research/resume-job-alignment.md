@@ -15,15 +15,15 @@ judgement only a small minority of resume-posting pairs are ready to send as-is.
 
 | Measure | Value | Sample |
 | --- | --- | --- |
-| Median keyword coverage vs the posting | **79%** | 1,670 |
-| Median ATS score (parse/readability, 0–100) | **80** | 1,670 |
-| Resumes scoring below 70 on that check | 20.4% | 1,670 |
-| Median required skills missing per resume | **6** | 1,670 |
-| Median skills named but not evidenced | **7** | 537 |
-| Median resume years of experience | 4 | 999 |
-| Median years the posting asked for | 4 | 999 |
+| Median keyword coverage vs the posting | **80%** | 3,218 |
+| Median ATS score (parse/readability, 0–100) | **80** | 3,218 |
+| Resumes scoring below 70 on that check | 12.5% | 1,085 |
+| Median required skills missing per resume | **4** | 3,218 |
+| Median skills named but not evidenced | **3** | 2,085 |
+| Median resume years of experience | 4 | 1,696 |
+| Median years the posting asked for | 4 | 1,696 |
 
-*n = 1,670, March 2026 – September 2026.* Sub-measures carry their own sample sizes, shown above.
+*n = 3,218, March 2026 – November 2026.* Sub-measures carry their own sample sizes, shown above.
 
 <!-- /GENERATED -->
 
@@ -37,11 +37,11 @@ undersells it), or **Skip** (not a realistic fit for this posting).
 
 | Verdict | Share | Count | Median shortlist odds |
 | --- | --- | --- | --- |
-| **Apply** | 6.7% | 39 | 72% |
-| **Optimize First** | 77.7% | 454 | 42% |
-| **Skip** | 15.6% | 91 | 12% |
+| **Apply** | 44.1% | 941 | 72% |
+| **Optimize First** | 38.2% | 815 | 42% |
+| **Skip** | 17.6% | 376 | 12% |
 
-*n = 584, June 2026 – September 2026.* Shortlist odds are a calibrated model estimate, not an observed base rate.
+*n = 2,132, June 2026 – November 2026.* Shortlist odds are a calibrated model estimate, not an observed base rate.
 
 <!-- /GENERATED -->
 

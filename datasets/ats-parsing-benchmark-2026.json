@@ -1,150 +1,507 @@
 {
-  "generatedAt": "2026-09-04",
-  "sampleSize": 138,
-  "submissionCount": 198,
+  "generatedAt": "2026-09-20",
+  "sampleSize": 218,
+  "submissionCount": 322,
   "windowStart": "2026-06-23",
-  "windowEnd": "2026-09-04",
-  "notParsedShare": 18.8,
+  "windowEnd": "2026-09-20",
+  "notParsedShare": 16.5,
   "analyzerScoreDistribution": {
-    "sampleSize": 138,
-    "median": 83,
-    "below70Share": 18.8,
-    "mid70to84Share": 37.7,
-    "atLeast85Share": 43.5
+    "sampleSize": 218,
+    "median": 84,
+    "below70Share": 16.1,
+    "mid70to84Share": 35.8,
+    "atLeast85Share": 48.2
   },
   "sectionsRecognized": {
-    "sampleSize": 138,
-    "allThreeShare": 55.1,
-    "twoShare": 26.8,
-    "oneOrNoneShare": 18.1
+    "sampleSize": 218,
+    "allThreeShare": 60.6,
+    "twoShare": 23.4,
+    "oneOrNoneShare": 16.1
+  },
+  "sectionHeadings": {
+    "sampleSize": 218,
+    "recognizedShare": {
+      "Summary": 76.1,
+      "Experience": 79.8,
+      "Education": 79.8,
+      "Skills": 77.1,
+      "Certifications": 57.3,
+      "Projects": 33.9
+    },
+    "medianSectionsRecognized": 4,
+    "wording": {
+      "Summary": [
+        {
+          "heading": "professional summary",
+          "count": 73,
+          "share": 44
+        },
+        {
+          "heading": "summary",
+          "count": 64,
+          "share": 38.6
+        },
+        {
+          "heading": "profile",
+          "count": 8,
+          "share": 4.8
+        },
+        {
+          "heading": "objective",
+          "count": 7,
+          "share": 4.2
+        },
+        {
+          "heading": "professional profile",
+          "count": 5,
+          "share": 3
+        },
+        {
+          "heading": "career summary",
+          "count": 4,
+          "share": 2.4
+        },
+        {
+          "heading": "career objective",
+          "count": 3,
+          "share": 1.8
+        },
+        {
+          "heading": "about me",
+          "count": 2,
+          "share": 1.2
+        }
+      ],
+      "Experience": [
+        {
+          "heading": "experience",
+          "count": 71,
+          "share": 40.8
+        },
+        {
+          "heading": "professional experience",
+          "count": 53,
+          "share": 30.5
+        },
+        {
+          "heading": "work experience",
+          "count": 35,
+          "share": 20.1
+        },
+        {
+          "heading": "work history",
+          "count": 4,
+          "share": 2.3
+        },
+        {
+          "heading": "internships",
+          "count": 3,
+          "share": 1.7
+        },
+        {
+          "heading": "internship experience",
+          "count": 2,
+          "share": 1.1
+        },
+        {
+          "heading": "internship",
+          "count": 2,
+          "share": 1.1
+        },
+        {
+          "heading": "career history",
+          "count": 2,
+          "share": 1.1
+        },
+        {
+          "heading": "employment history",
+          "count": 1,
+          "share": 0.6
+        },
+        {
+          "heading": "relevant experience",
+          "count": 1,
+          "share": 0.6
+        }
+      ],
+      "Education": [
+        {
+          "heading": "education",
+          "count": 174,
+          "share": 100
+        }
+      ],
+      "Skills": [
+        {
+          "heading": "skills",
+          "count": 92,
+          "share": 54.8
+        },
+        {
+          "heading": "technical skills",
+          "count": 28,
+          "share": 16.7
+        },
+        {
+          "heading": "core competencies",
+          "count": 17,
+          "share": 10.1
+        },
+        {
+          "heading": "core skills",
+          "count": 14,
+          "share": 8.3
+        },
+        {
+          "heading": "key skills",
+          "count": 9,
+          "share": 5.4
+        },
+        {
+          "heading": "technical expertise",
+          "count": 3,
+          "share": 1.8
+        },
+        {
+          "heading": "skills & tools",
+          "count": 1,
+          "share": 0.6
+        },
+        {
+          "heading": "tools",
+          "count": 1,
+          "share": 0.6
+        },
+        {
+          "heading": "professional skills",
+          "count": 1,
+          "share": 0.6
+        },
+        {
+          "heading": "competencies",
+          "count": 1,
+          "share": 0.6
+        },
+        {
+          "heading": "technical proficiencies",
+          "count": 1,
+          "share": 0.6
+        }
+      ],
+      "Certifications": [
+        {
+          "heading": "certifications",
+          "count": 72,
+          "share": 57.6
+        },
+        {
+          "heading": "other",
+          "count": 47,
+          "share": 37.6
+        },
+        {
+          "heading": "certificates",
+          "count": 5,
+          "share": 4
+        },
+        {
+          "heading": "licenses & certifications",
+          "count": 1,
+          "share": 0.8
+        }
+      ],
+      "Projects": [
+        {
+          "heading": "projects",
+          "count": 51,
+          "share": 68.9
+        },
+        {
+          "heading": "other",
+          "count": 19,
+          "share": 25.7
+        },
+        {
+          "heading": "key projects",
+          "count": 2,
+          "share": 2.7
+        },
+        {
+          "heading": "academic projects",
+          "count": 1,
+          "share": 1.4
+        },
+        {
+          "heading": "personal projects",
+          "count": 1,
+          "share": 1.4
+        }
+      ]
+    },
+    "order": {
+      "sampleSize": 200,
+      "firstSection": [
+        {
+          "section": "Summary",
+          "count": 159,
+          "share": 79.5
+        },
+        {
+          "section": "Experience",
+          "count": 18,
+          "share": 9
+        },
+        {
+          "section": "Skills",
+          "count": 15,
+          "share": 7.5
+        },
+        {
+          "section": "Education",
+          "count": 4,
+          "share": 2
+        },
+        {
+          "section": "Projects",
+          "count": 2,
+          "share": 1
+        },
+        {
+          "section": "Certifications",
+          "count": 2,
+          "share": 1
+        }
+      ],
+      "summaryBeforeExperience": {
+        "sampleSize": 147,
+        "share": 98.6
+      },
+      "skillsBeforeExperience": {
+        "sampleSize": 149,
+        "share": 65.8
+      },
+      "educationBeforeExperience": {
+        "sampleSize": 150,
+        "share": 15.3
+      }
+    },
+    "unrecognized": [
+      {
+        "heading": "contact",
+        "count": 12,
+        "share": 5.5,
+        "readsAs": null
+      },
+      {
+        "heading": "additional information",
+        "count": 10,
+        "share": 4.6,
+        "readsAs": null
+      },
+      {
+        "heading": "declaration",
+        "count": 10,
+        "share": 4.6,
+        "readsAs": null
+      },
+      {
+        "heading": "key achievements",
+        "count": 7,
+        "share": 3.2,
+        "readsAs": null
+      },
+      {
+        "heading": "personal details",
+        "count": 6,
+        "share": 2.8,
+        "readsAs": null
+      },
+      {
+        "heading": "language",
+        "count": 5,
+        "share": 2.3,
+        "readsAs": null
+      },
+      {
+        "heading": "accomplishments",
+        "count": 3,
+        "share": 1.4,
+        "readsAs": null
+      },
+      {
+        "heading": "strengths",
+        "count": 3,
+        "share": 1.4,
+        "readsAs": "Skills"
+      },
+      {
+        "heading": "achievement",
+        "count": 3,
+        "share": 1.4,
+        "readsAs": null
+      },
+      {
+        "heading": "extracurricular activities",
+        "count": 3,
+        "share": 1.4,
+        "readsAs": null
+      },
+      {
+        "heading": "additional",
+        "count": 3,
+        "share": 1.4,
+        "readsAs": null
+      },
+      {
+        "heading": "accomplishment",
+        "count": 3,
+        "share": 1.4,
+        "readsAs": null
+      }
+    ],
+    "minHeadingResumes": 3,
+    "resumesWithUnrecognizedCoreShare": 14.2
+  },
+  "summarySection": {
+    "sampleSize": 218,
+    "hasSummaryShare": 76.1,
+    "lengthSampleSize": 155,
+    "excluded": 3,
+    "medianWords": 79,
+    "p25Words": 58,
+    "p75Words": 122,
+    "shareUnder30Words": 4.5,
+    "share30to60Words": 23.9,
+    "shareOver60Words": 71.6,
+    "shareOver100Words": 36.8
   },
   "fieldExtraction": {
-    "sampleSize": 138,
-    "nameMissingShare": 9.4,
-    "emailMissingShare": 6.5,
-    "phoneMissingShare": 8,
-    "linkedinMissingShare": 58,
-    "locationMissingShare": 43.5
+    "sampleSize": 218,
+    "nameMissingShare": 7.8,
+    "emailMissingShare": 5,
+    "phoneMissingShare": 6.9,
+    "linkedinMissingShare": 62.8,
+    "locationMissingShare": 46.3
   },
   "parseChecks": [
     {
       "id": "name",
       "label": "Name",
       "failsWhen": "Name inside a header band, logo, or image",
-      "passRate": 90.6,
+      "passRate": 92.2,
       "warnRate": 0,
-      "failRate": 9.4,
-      "flaggedRate": 9.4,
+      "failRate": 7.8,
+      "flaggedRate": 7.8,
       "confounded": false
     },
     {
       "id": "email",
       "label": "Email",
       "failsWhen": "Email shown only as an icon or in a graphic",
-      "passRate": 93.5,
+      "passRate": 95,
       "warnRate": 0,
-      "failRate": 6.5,
-      "flaggedRate": 6.5,
+      "failRate": 5,
+      "flaggedRate": 5,
       "confounded": false
     },
     {
       "id": "phone",
       "label": "Phone",
       "failsWhen": "Number split across table cells or stylized",
-      "passRate": 92,
-      "warnRate": 8,
+      "passRate": 93.1,
+      "warnRate": 6.9,
       "failRate": 0,
-      "flaggedRate": 8,
+      "flaggedRate": 6.9,
       "confounded": false
     },
     {
       "id": "sections",
       "label": "Section detection",
       "failsWhen": "Creative headings like “My Journey” or “Toolbox”",
-      "passRate": 55.1,
-      "warnRate": 26.8,
-      "failRate": 18.1,
-      "flaggedRate": 44.9,
+      "passRate": 60.6,
+      "warnRate": 23.4,
+      "failRate": 16.1,
+      "flaggedRate": 39.4,
       "confounded": false
     },
     {
       "id": "experience",
       "label": "Work experience",
       "failsWhen": "Roles merged or missing title/date pairing",
-      "passRate": 72.5,
-      "warnRate": 16.7,
-      "failRate": 10.9,
-      "flaggedRate": 27.5,
+      "passRate": 74.3,
+      "warnRate": 14.7,
+      "failRate": 11,
+      "flaggedRate": 25.7,
       "confounded": false
     },
     {
       "id": "dates",
       "label": "Dates",
       "failsWhen": "Mixed styles, “’21-’23”, or dates in graphics",
-      "passRate": 89.1,
-      "warnRate": 3.6,
-      "failRate": 7.2,
-      "flaggedRate": 10.9,
+      "passRate": 90.8,
+      "warnRate": 2.3,
+      "failRate": 6.9,
+      "flaggedRate": 9.2,
       "confounded": false
     },
     {
       "id": "skills",
       "label": "Skills",
       "failsWhen": "Skill grids, rating bars, or column layouts",
-      "passRate": 67.4,
-      "warnRate": 6.5,
-      "failRate": 26.1,
-      "flaggedRate": 32.6,
+      "passRate": 72.9,
+      "warnRate": 4.1,
+      "failRate": 22.9,
+      "flaggedRate": 27.1,
       "confounded": false
     },
     {
       "id": "education",
       "label": "Education",
       "failsWhen": "Degrees buried in prose or unlabeled sections",
-      "passRate": 70.3,
-      "warnRate": 29.7,
+      "passRate": 74.3,
+      "warnRate": 25.7,
       "failRate": 0,
-      "flaggedRate": 29.7,
+      "flaggedRate": 25.7,
       "confounded": false
     },
     {
       "id": "tables",
       "label": "Tables & columns",
       "failsWhen": "Two-column layouts and tables for core content",
-      "passRate": 54.3,
-      "warnRate": 23.2,
-      "failRate": 22.5,
-      "flaggedRate": 45.7,
+      "passRate": 59.2,
+      "warnRate": 22,
+      "failRate": 18.8,
+      "flaggedRate": 40.8,
       "confounded": false
     },
     {
       "id": "icons",
       "label": "Icons & graphics",
       "failsWhen": "Contact icons, emoji, and decorative glyphs",
-      "passRate": 74.6,
-      "warnRate": 8.7,
-      "failRate": 16.7,
-      "flaggedRate": 25.4,
+      "passRate": 71.6,
+      "warnRate": 9.2,
+      "failRate": 19.3,
+      "flaggedRate": 28.4,
       "confounded": false
     },
     {
       "id": "bullets",
       "label": "Bullet structure",
       "failsWhen": "Dense paragraphs with no bullet markers",
-      "passRate": 54.3,
-      "warnRate": 4.3,
-      "failRate": 41.3,
-      "flaggedRate": 45.7,
+      "passRate": 57.8,
+      "warnRate": 3.2,
+      "failRate": 39,
+      "flaggedRate": 42.2,
       "confounded": true
     },
     {
       "id": "headers",
       "label": "Headers & footers",
       "failsWhen": "Name/email/phone trapped in header or footer bands",
-      "passRate": 90.6,
-      "warnRate": 9.4,
+      "passRate": 92.2,
+      "warnRate": 7.8,
       "failRate": 0,
-      "flaggedRate": 9.4,
+      "flaggedRate": 7.8,
       "confounded": false
     }
   ],
@@ -152,16 +509,16 @@
     "bullets"
   ],
   "llmScore": {
-    "sampleSize": 1570,
+    "sampleSize": 1085,
     "windowStart": "2026-03-26",
-    "windowEnd": "2026-09-04",
+    "windowEnd": "2026-06-19",
     "median": 80,
-    "below70Share": 19.4,
-    "mid70to84Share": 41.1,
-    "atLeast85Share": 39.4
+    "below70Share": 12.5,
+    "mid70to84Share": 49.7,
+    "atLeast85Share": 37.8
   },
   "notMeasured": [
-    "PDF vs DOCX parse rates — the source file type is not stored, so the analyzer ran on extracted text only.",
+    "PDF vs DOCX parse rates on the submitted resumes — the source file type is not stored. The page answers the question from 35 template pairs rendered both ways instead (see the PDF or Word card).",
     "Page-count effects — not stored.",
     "Bullet structure — text extraction normalises or strips bullet glyphs, so a low bullet count here is an extraction artefact, not the resume.",
     "Any specific commercial ATS (Workday, Greenhouse, Lever, iCIMS, Taleo, SAP). This benchmark tested the ResumeAtlas analyzer, which models the shared text-extraction stage — not any one vendor's parser.",
